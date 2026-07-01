@@ -3,7 +3,9 @@
 #   1) fetch a web page politely (and only if robots.txt allows),
 #   2) stamp every piece of data with WHERE it came from and WHEN,
 #   3) write the result to a JSON file the web pages can read.
-
+#
+# THE ONLY LINE YOU MIGHT CHANGE is UA below: put your GitHub username
+# and repo name in it, so sites can see who is fetching. It is optional.
 
 import os
 import json
