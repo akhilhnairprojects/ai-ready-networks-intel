@@ -2,10 +2,11 @@
 # WHAT THIS DOES: collects recent news about AI-ready networking, grouped into
 # topics, and writes them to data/week1/trends.json for the Week 1 web page.
 #
-# It refreshes AT MOST once every 45 days. It remembers the last
+# It refreshes AT MOST once every 45 days (your feedback). It remembers the last
 # run in data/_state/last_run.json, so even if it is triggered more often, it
 # quietly skips until 45 days have passed.
 #
+# IT WORKS OUT OF THE BOX using free Google News RSS feeds — no keys, no logins.
 # TO USE YOUR OWN SOURCES: edit the FEEDS list below. Each line is
 #   "Topic name you choose": "an RSS feed URL"
 # Any RSS/Atom feed works (Google News searches, analyst blogs, industry sites).
@@ -22,7 +23,8 @@ from common import now_iso, write_json, record
 STATE = "data/_state/last_run.json"
 GATE_DAYS = 45
 
-# Changeable links for various topics.
+# ---- EDIT THIS: your topics and their RSS feeds -------------------------------
+# These defaults already work. Add, remove, or rename freely.
 FEEDS = {
     "AI back-end / GPU fabric":
         "https://news.google.com/rss/search?q=%22AI+networking%22+data+center&hl=en-US&gl=US&ceid=US:en",
@@ -70,7 +72,7 @@ if __name__ == "__main__":
     rows = []
     for topic, feed_url in FEEDS.items():
         parsed = feedparser.parse(feed_url)
-        for e in parsed.entries[:25]:               # up to 25 findings per topic
+        for e in parsed.entries[:12]:               # up to 12 findings per topic
             snippet = strip_html(e.get("summary", "")) or e.get("title", "")
             rows.append(record({
                 "topic": topic,
