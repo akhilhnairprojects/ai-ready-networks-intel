@@ -24,8 +24,7 @@ jobs:
       - name: Install libraries
         run: pip install requests feedparser
       - name: Run the Week 1 scraper
-        working-directory: scrapers
-        run: python week1_trends.py
+        run: python scrapers/week1_trends.py
       - name: Save the results
         run: |
           git config user.name  "intel-bot"
