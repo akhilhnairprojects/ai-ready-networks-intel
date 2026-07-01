@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Week 3 · AI-Ready Networks — Account Scoring</title>
+<style>
+  :root{--ink:#16224C;--indigo:#2E4A8B;--teal:#10B5A8;--green:#1A9E6A;--amber:#E0962E;
+        --red:#CC4B5C;--paper:#FFFFFF;--wash:#F4F6FB;--line:#E3E8F2;--muted:#5B6788}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--wash);color:var(--ink);
+       font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif;line-height:1.5}
+  .wrap{max-width:1120px;margin:0 auto;padding:28px 20px 60px}
+  .tabs{display:flex;gap:8px;margin-bottom:22px;flex-wrap:wrap}
+  .tabs a{font-size:13px;font-weight:600;text-decoration:none;color:var(--muted);
+          background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:7px 15px}
+  .tabs a.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .sub{color:var(--muted);font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+  h1{font-family:Cambria,Georgia,serif;font-size:30px;margin:2px 0 0}
+  .meta{margin-top:14px;display:flex;flex-wrap:wrap;gap:10px}
+  .chip{background:var(--paper);border:1px solid var(--line);border-radius:999px;
+        padding:6px 14px;font-size:13px;color:var(--muted);display:flex;gap:8px;align-items:center}
+  .chip b{color:var(--ink)}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--teal)}
+  .note{background:#FBF1DF;border:1px solid #F0D9A8;border-radius:12px;padding:12px 16px;
+        font-size:13px;color:#7A5A16;margin-top:18px}
+  .note b{color:#5E4410}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:6px 10px;margin-top:18px;
+        box-shadow:0 1px 2px rgba(22,34,76,.04);overflow-x:auto}
+  table{width:100%;border-collapse:collapse;font-size:14px;min-width:620px}
+  th{text-align:left;padding:12px 12px;color:var(--muted);font-size:12px;text-transform:uppercase;
+     letter-spacing:.04em;cursor:pointer;user-select:none;border-bottom:2px solid var(--line);white-space:nowrap}
+  th:hover{color:var(--ink)}
+  th .ar{opacity:.4}
+  td{padding:11px 12px;border-bottom:1px solid var(--line)}
+  tr.row{cursor:pointer}
+  tr.row:hover td{background:#F7F9FD}
+  .score{font-weight:700;font-size:15px}
+  .tierb{font-size:12px;font-weight:700;border-radius:999px;padding:3px 10px}
+  .t1{background:#E1F5EE;color:#0C8F85}
+  .t2{background:#EAF1FB;color:#1F4E96}
+  .t3{background:#F1EFE8;color:#5F5E5A}
+  .confbar{display:inline-block;width:74px;height:8px;border-radius:5px;background:var(--line);vertical-align:middle;overflow:hidden}
+  .confbar i{display:block;height:100%;background:var(--amber)}
+  .bd{font-size:11px;color:var(--amber);font-weight:700;margin-left:6px}
+  .drawer td{background:#F7F9FD;padding:0}
+  .draw-in{padding:12px 16px}
+  .fgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
+  .fbox{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+  .fbox .fn{font-size:12px;color:var(--muted);text-transform:capitalize}
+  .fbox .fv{font-size:18px;font-weight:700}
+  .fbox .fc{font-size:11px;color:var(--muted)}
+  .fbox a{font-size:12px;color:var(--indigo);text-decoration:none;border-bottom:1px solid var(--indigo)}
+  .fbox .nosrc{font-size:11px;color:var(--amber)}
+  footer{margin-top:34px;color:var(--muted);font-size:12px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="tabs">
+    <a href="index.html">Executive Hub</a>
+    <a href="week1.html">Week 1 · Market</a>
+    <a href="week2.html">Week 2 · Competitors</a>
+    <a class="on" href="week3.html">Week 3 · Accounts</a>
+  </nav>
+  <div class="sub">Week 3 · Account Prioritization</div>
+  <h1>Which accounts to engage first</h1>
+  <div class="meta" id="meta"><span class="chip"><span class="dot"></span> loading…</span></div>
+  <div class="note" id="note" style="display:none"></div>
+  <div class="card"><table id="tbl"><thead></thead><tbody></tbody></table></div>
+  <footer id="foot"></footer>
+</div>
+
+<script>
+// Reads the CSV the Week 3 scraper writes. Nothing to edit here.
+const DATA_URL = "data/week3/accounts.csv";
+const FACTORS = ["ai_hiring","ai_announce","cloud","global","dc"];
+let DATA = [], sortKey = "score", sortDir = -1;
+
+fetch(DATA_URL)
+  .then(r => { if(!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+  .then(txt => { DATA = parseCSV(txt); render(); })
+  .catch(err => {
+    document.getElementById("meta").innerHTML =
+      '<span class="chip">No data yet — run the Week 3 workflow, then refresh. (' + err + ')</span>';
+  });
+
+// Minimal CSV parser that handles quoted fields.
+function parseCSV(text){
+  const rows = []; let row = [], cur = "", q = false;
+  for(let i=0;i<text.length;i++){
+    const ch = text[i];
+    if(q){
+      if(ch === '"' && text[i+1] === '"'){ cur += '"'; i++; }
+      else if(ch === '"'){ q = false; }
+      else cur += ch;
+    } else {
+      if(ch === '"') q = true;
+      else if(ch === ',') { row.push(cur); cur = ""; }
+      else if(ch === '\n'){ row.push(cur); rows.push(row); row = []; cur = ""; }
+      else if(ch === '\r'){ /* skip */ }
+      else cur += ch;
+    }
+  }
+  if(cur.length || row.length){ row.push(cur); rows.push(row); }
+  const head = rows.shift();
+  return rows.filter(r => r.length > 1).map(r => {
+    const o = {}; head.forEach((h,i) => o[h] = r[i]); return o;
+  });
+}
+
+function esc(s){ return String(s).replace(/[&<>"']/g, c =>
+  ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function tierClass(t){ return t === "Tier 1" ? "t1" : t === "Tier 2" ? "t2" : "t3"; }
+
+function render(){
+  const n = DATA.length;
+  const t1 = DATA.filter(d => d.tier === "Tier 1").length;
+  const t2 = DATA.filter(d => d.tier === "Tier 2").length;
+  const t3 = DATA.filter(d => d.tier === "Tier 3").length;
+  const avgConf = n ? Math.round(DATA.reduce((s,d) => s + (+d.confidence||0), 0) / n) : 0;
+
+  document.getElementById("meta").innerHTML =
+    '<span class="chip"><span class="dot"></span> <b>' + n + '</b>&nbsp;accounts</span>' +
+    '<span class="chip"><b>' + t1 + '</b>&nbsp;Tier 1</span>' +
+    '<span class="chip"><b>' + t2 + '</b>&nbsp;Tier 2</span>' +
+    '<span class="chip"><b>' + t3 + '</b>&nbsp;Tier 3</span>' +
+    '<span class="chip">avg confidence <b>' + avgConf + '%</b></span>';
+
+  const note = document.getElementById("note");
+  if(avgConf < 50){
+    note.style.display = "block";
+    note.innerHTML = '<b>Honest read:</b> scores are the ranking; confidence shows how proven each one is. ' +
+      'Average confidence is ' + avgConf + '%, because the factors are still estimates. As you plug in real ' +
+      'sources (set a factor&rsquo;s confidence to 1.0), confidence rises and the ranking firms up. Click any row to see the evidence behind each factor.';
+  }
+  drawTable();
+  document.getElementById("foot").textContent =
+    "Tata Communications · AI-Ready Networks Intelligence · refreshes weekly via GitHub Actions";
+}
+
+function drawTable(){
+  const cols = [
+    ["account","Account"],["industry","Industry"],
+    ["score","Score"],["confidence","Confidence"],["tier","Tier"]
+  ];
+  const arrow = k => sortKey === k ? (sortDir < 0 ? " ▼" : " ▲") : "";
+  document.querySelector("#tbl thead").innerHTML = "<tr>" + cols.map(([k,l]) =>
+    '<th data-k="' + k + '">' + l + '<span class="ar">' + arrow(k) + '</span></th>').join("") + "</tr>";
+  document.querySelectorAll("#tbl th").forEach(th =>
+    th.onclick = () => { const k = th.dataset.k;
+      if(sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = (k==="account"||k==="industry"||k==="tier")?1:-1; }
+      drawTable(); });
+
+  const num = k => k === "score" || k === "confidence";
+  const sorted = DATA.slice().sort((a,b) => {
+    let x = a[sortKey], y = b[sortKey];
+    if(num(sortKey)){ x = +x; y = +y; return (x-y)*sortDir; }
+    return String(x).localeCompare(String(y)) * sortDir;
+  });
+
+  const body = document.querySelector("#tbl tbody");
+  body.innerHTML = sorted.map((d,i) => {
+    const conf = +d.confidence || 0;
+    return '<tr class="row" data-i="' + i + '">' +
+      '<td><b>' + esc(d.account) + '</b></td>' +
+      '<td>' + esc(d.industry) + '</td>' +
+      '<td><span class="score">' + esc(d.score) + '</span>' +
+        (d.borderline === "yes" ? '<span class="bd">borderline</span>' : '') + '</td>' +
+      '<td><span class="confbar"><i style="width:' + conf + '%"></i></span> ' + conf + '%</td>' +
+      '<td><span class="tierb ' + tierClass(d.tier) + '">' + esc(d.tier) + '</span></td>' +
+    '</tr>' +
+    '<tr class="drawer" data-d="' + i + '" style="display:none"><td colspan="5"><div class="draw-in">' +
+      '<div class="fgrid">' + FACTORS.map(f => {
+        const src = d[f + "_src"];
+        return '<div class="fbox"><div class="fn">' + f.replace("_"," ") + '</div>' +
+          '<div class="fv">' + esc(d[f + "_score"] || "—") + '</div>' +
+          '<div class="fc">confidence ' + Math.round((+d[f + "_conf"]||0)*100) + '%</div>' +
+          (src ? '<a href="' + esc(src) + '" target="_blank" rel="noopener">Source ↗</a>'
+               : '<div class="nosrc">no source yet (estimate)</div>') +
+        '</div>';
+      }).join("") + '</div></div></td></tr>';
+  }).join("");
+
+  body.querySelectorAll("tr.row").forEach(tr => tr.onclick = () => {
+    const dr = body.querySelector('tr.drawer[data-d="' + tr.dataset.i + '"]');
+    dr.style.display = dr.style.display === "none" ? "table-row" : "none";
+  });
+}
+</script>
+</body>
+</html>
