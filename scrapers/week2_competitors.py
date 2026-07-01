@@ -12,7 +12,7 @@
 import feedparser
 from common import write_json, record
 
-# ---- Subjective rating of industry level maturity. This can be edited as different companies change their positions. -----
+# ---- EDIT THIS: your competitors, your maturity ratings (1-5), your notes -----
 COMPETITORS = {
     "Cisco":            {"maturity": 5, "position": "Broadest AI-networking portfolio; Ethernet + Silicon One."},
     "Juniper Networks": {"maturity": 5, "position": "AI-native ops (Mist) and strong data-center fabric."},
