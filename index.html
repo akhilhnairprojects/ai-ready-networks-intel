@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI-Ready Networks — Executive Intelligence Hub</title>
+<style>
+  :root{--ink:#16224C;--indigo:#2E4A8B;--teal:#10B5A8;--green:#1A9E6A;--amber:#E0962E;
+        --red:#CC4B5C;--paper:#FFFFFF;--wash:#F4F6FB;--line:#E3E8F2;--muted:#5B6788}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--wash);color:var(--ink);
+       font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif;line-height:1.5}
+  .wrap{max-width:1120px;margin:0 auto;padding:28px 20px 60px}
+  .tabs{display:flex;gap:8px;margin-bottom:22px;flex-wrap:wrap}
+  .tabs a{font-size:13px;font-weight:600;text-decoration:none;color:var(--muted);
+          background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:7px 15px}
+  .tabs a.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .hero{background:var(--ink);color:#fff;border-radius:18px;padding:30px 28px;margin-bottom:22px}
+  .hero .sub{color:#9FB4E6;font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+  .hero h1{font-family:Cambria,Georgia,serif;font-size:32px;margin:6px 0 8px;line-height:1.15}
+  .hero p{color:#C9D4EC;font-size:15px;margin:0;max-width:760px}
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+  .tile{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:20px;
+        text-decoration:none;color:var(--ink);display:block;box-shadow:0 1px 2px rgba(22,34,76,.04);
+        transition:transform .08s ease, box-shadow .12s ease}
+  .tile:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(22,34,76,.12)}
+  .tile .wk{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--teal)}
+  .tile h2{font-family:Cambria,Georgia,serif;font-size:20px;margin:4px 0 12px}
+  .stat{display:flex;align-items:baseline;gap:8px;margin:2px 0}
+  .stat b{font-size:28px;color:var(--ink)}
+  .stat span{font-size:14px;color:var(--muted)}
+  .li{font-size:14px;color:var(--ink);margin:8px 0 0;display:flex;gap:8px}
+  .li::before{content:"";flex:0 0 7px;height:7px;border-radius:50%;background:var(--teal);margin-top:7px}
+  .asof{font-size:12px;color:var(--muted);margin-top:14px;border-top:1px solid var(--line);padding-top:10px}
+  .go{color:var(--indigo);font-weight:700;font-size:14px}
+  .thesis{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:22px;margin-top:20px}
+  .thesis h2{font-family:Cambria,Georgia,serif;font-size:20px;margin:0 0 6px}
+  .thesis p.h{color:var(--muted);font-size:13px;margin:0 0 14px}
+  .steps{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
+  .step{display:flex;gap:10px;font-size:14px}
+  .step .num{flex:0 0 24px;height:24px;border-radius:50%;background:var(--ink);color:#fff;
+             font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+  footer{margin-top:34px;color:var(--muted);font-size:12px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="tabs">
+    <a class="on" href="index.html">Executive Hub</a>
+    <a href="week1.html">Week 1 · Market</a>
+    <a href="week2.html">Week 2 · Competitors</a>
+    <a href="week3.html">Week 3 · Accounts</a>
+  </nav>
+
+  <div class="hero">
+    <div class="sub">Tata Communications · Internship Capstone</div>
+    <h1>AI-Ready Networks — Executive Intelligence Hub</h1>
+    <p>One live view over three weeks of work: the market conversation, the competitive landscape,
+       and the accounts to engage first. Every tile reads the same source-stamped data and updates
+       automatically whenever a scraper runs.</p>
+  </div>
+
+  <div class="tiles">
+    <a class="tile" href="week1.html" id="t1"><div class="wk">Week 1 · Market</div>
+      <h2>The market conversation</h2><div id="w1">Loading…</div></a>
+    <a class="tile" href="week2.html" id="t2"><div class="wk">Week 2 · Competitors</div>
+      <h2>Competitive landscape</h2><div id="w2">Loading…</div></a>
+    <a class="tile" href="week3.html" id="t3"><div class="wk">Week 3 · Accounts</div>
+      <h2>Account prioritization</h2><div id="w3">Loading…</div></a>
+  </div>
+
+  <div class="thesis">
+    <h2>Final thesis — the nine-section argument</h2>
+    <p class="h">The written deliverable that turns this data into a recommendation.</p>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><div>Executive summary</div></div>
+      <div class="step"><div class="num">2</div><div>Market context</div></div>
+      <div class="step"><div class="num">3</div><div>Competitive landscape</div></div>
+      <div class="step"><div class="num">4</div><div>Tata&rsquo;s white space</div></div>
+      <div class="step"><div class="num">5</div><div>Account prioritization</div></div>
+      <div class="step"><div class="num">6</div><div>Methodology &amp; sources</div></div>
+      <div class="step"><div class="num">7</div><div>Honest limitations</div></div>
+      <div class="step"><div class="num">8</div><div>Roadmap</div></div>
+      <div class="step"><div class="num">9</div><div>Recommendations</div></div>
+    </div>
+  </div>
+
+  <footer id="foot"></footer>
+</div>
+
+<script>
+// Reads all three data files and fills the three tiles. Nothing to edit here.
+function fmtDate(iso){ try { return new Date(iso).toLocaleDateString(undefined,
+  {year:'numeric',month:'short',day:'numeric'}); } catch(e){ return iso||''; } }
+function esc(s){ return String(s).replace(/[&<>"']/g, c =>
+  ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function getJSON(u){ return fetch(u).then(r => r.ok ? r.json() : Promise.reject(r.status)); }
+function getText(u){ return fetch(u).then(r => r.ok ? r.text() : Promise.reject(r.status)); }
+
+// Week 1 tile
+getJSON("data/week1/trends.json").then(d => {
+  const rows = d.rows || [];
+  const byTopic = {}; rows.forEach(r => { const t=r.topic||"?"; byTopic[t]=(byTopic[t]||0)+1; });
+  const top = Object.entries(byTopic).sort((a,b)=>b[1]-a[1])[0];
+  document.getElementById("w1").innerHTML =
+    '<div class="stat"><b>' + rows.length + '</b><span>findings across ' + Object.keys(byTopic).length + ' topics</span></div>' +
+    (top ? '<div class="li">Most active: ' + esc(top[0]) + ' (' + top[1] + ')</div>' : '') +
+    '<div class="asof">as of ' + fmtDate(d.generated_at) + ' · <span class="go">open dashboard →</span></div>';
+}).catch(() => document.getElementById("w1").innerHTML = '<div class="asof">No data yet — run the Week 1 workflow.</div>');
+
+// Week 2 tile
+getJSON("data/week2/competitors.json").then(d => {
+  const rows = (d.rows||[]).slice().sort((a,b)=>(b.maturity||0)-(a.maturity||0));
+  const leaders = rows.filter(r => r.maturity === (rows[0]||{}).maturity).map(r => r.name).slice(0,2);
+  const tata = rows.find(r => /tata/i.test(r.name||""));
+  document.getElementById("w2").innerHTML =
+    '<div class="stat"><b>' + rows.length + '</b><span>competitors tracked</span></div>' +
+    (leaders.length ? '<div class="li">Front-runners: ' + esc(leaders.join(", ")) + '</div>' : '') +
+    (tata ? '<div class="li">Tata white space: ' + esc(tata.position||"") + '</div>' : '') +
+    '<div class="asof">as of ' + fmtDate(d.generated_at) + ' · <span class="go">open study →</span></div>';
+}).catch(() => document.getElementById("w2").innerHTML = '<div class="asof">No data yet — run the Week 2 workflow.</div>');
+
+// Week 3 tile
+getText("data/week3/accounts.csv").then(txt => {
+  const lines = txt.trim().split("\n"); const head = lines.shift().split(",").map(s=>s.replace(/"/g,""));
+  const idx = n => head.indexOf(n);
+  const recs = lines.map(l => l.split('","').map(s=>s.replace(/"/g,"")));
+  const t1 = recs.filter(r => r[idx("tier")] === "Tier 1").length;
+  const confs = recs.map(r => +r[idx("confidence")]||0);
+  const avg = confs.length ? Math.round(confs.reduce((a,b)=>a+b,0)/confs.length) : 0;
+  const top = recs.slice().sort((a,b)=>(+b[idx("score")])-(+a[idx("score")]))[0];
+  document.getElementById("w3").innerHTML =
+    '<div class="stat"><b>' + t1 + '</b><span>Tier-1 accounts of ' + recs.length + '</span></div>' +
+    (top ? '<div class="li">Top: ' + esc(top[idx("account")]) + ' (score ' + esc(top[idx("score")]) + ')</div>' : '') +
+    '<div class="li">Avg confidence: ' + avg + '% — still estimates</div>' +
+    '<div class="asof"><span class="go">open scoring table →</span></div>';
+}).catch(() => document.getElementById("w3").innerHTML = '<div class="asof">No data yet — run the Week 3 workflow.</div>');
+
+document.getElementById("foot").textContent =
+  "Tata Communications · AI-Ready Networks Intelligence · one engine, four surfaces · refreshes automatically via GitHub Actions";
+</script>
+</body>
+</html>
