@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Week 2 · AI-Ready Networks — Competitive Intelligence</title>
+<style>
+  :root{--ink:#16224C;--indigo:#2E4A8B;--teal:#10B5A8;--green:#1A9E6A;--amber:#E0962E;
+        --red:#CC4B5C;--paper:#FFFFFF;--wash:#F4F6FB;--line:#E3E8F2;--muted:#5B6788}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--wash);color:var(--ink);
+       font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif;line-height:1.5}
+  .wrap{max-width:1120px;margin:0 auto;padding:28px 20px 60px}
+  .tabs{display:flex;gap:8px;margin-bottom:22px;flex-wrap:wrap}
+  .tabs a{font-size:13px;font-weight:600;text-decoration:none;color:var(--muted);
+          background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:7px 15px}
+  .tabs a.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .sub{color:var(--muted);font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+  h1{font-family:Cambria,Georgia,serif;font-size:30px;margin:2px 0 0}
+  .meta{margin-top:14px;display:flex;flex-wrap:wrap;gap:10px}
+  .chip{background:var(--paper);border:1px solid var(--line);border-radius:999px;
+        padding:6px 14px;font-size:13px;color:var(--muted);display:flex;gap:8px;align-items:center}
+  .chip b{color:var(--ink)}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--teal)}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;margin-top:24px}
+  .cc{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px;
+      box-shadow:0 1px 2px rgba(22,34,76,.04)}
+  .cc.star{border:2px solid var(--teal)}
+  .cc .top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+  .cc h3{font-family:Cambria,Georgia,serif;font-size:19px;margin:0}
+  .badge{font-size:11px;font-weight:700;color:#0C8F85;background:#E1F5EE;border-radius:999px;padding:3px 10px;white-space:nowrap}
+  .mat{display:flex;gap:5px;margin:12px 0}
+  .mat i{width:22px;height:8px;border-radius:3px;background:var(--line)}
+  .mat i.on{background:var(--indigo)}
+  .pos{font-size:14px;color:var(--ink);margin:6px 0 12px}
+  .move{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}
+  .move b{color:var(--ink);font-weight:600}
+  .src{display:inline-flex;gap:6px;align-items:center;margin-top:8px;font-size:13px;
+       color:var(--indigo);text-decoration:none;font-weight:600;border-bottom:1px solid var(--indigo)}
+  footer{margin-top:34px;color:var(--muted);font-size:12px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="tabs">
+    <a href="index.html">Executive Hub</a>
+    <a href="week1.html">Week 1 · Market</a>
+    <a class="on" href="week2.html">Week 2 · Competitors</a>
+    <a href="week3.html">Week 3 · Accounts</a>
+  </nav>
+  <div class="sub">Week 2 · Competitive Intelligence</div>
+  <h1>How competitors are positioned on AI networking</h1>
+  <div class="meta" id="meta"><span class="chip"><span class="dot"></span> loading…</span></div>
+  <div class="cards" id="cards"></div>
+  <footer id="foot"></footer>
+</div>
+
+<script>
+// Reads what the Week 2 scraper writes. Nothing to edit here.
+const DATA_URL = "data/week2/competitors.json";
+
+fetch(DATA_URL)
+  .then(r => { if(!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  .then(render)
+  .catch(err => {
+    document.getElementById("meta").innerHTML =
+      '<span class="chip">No data yet — run the Week 2 workflow, then refresh. (' + err + ')</span>';
+  });
+
+function fmtDate(iso){ try { return new Date(iso).toLocaleDateString(undefined,
+  {year:'numeric',month:'short',day:'numeric'}); } catch(e){ return iso||''; } }
+function esc(s){ return String(s).replace(/[&<>"']/g, c =>
+  ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+function render(data){
+  const rows = (data.rows || []).slice().sort((a,b) => (b.maturity||0) - (a.maturity||0));
+  const lead = rows.length ? rows[0].maturity : 0;
+
+  document.getElementById("meta").innerHTML =
+    '<span class="chip"><span class="dot"></span> Last refreshed: <b>' + fmtDate(data.generated_at) + '</b></span>' +
+    '<span class="chip"><b>' + rows.length + '</b>&nbsp;competitors tracked</span>' +
+    '<span class="chip">maturity scale <b>1–5</b></span>';
+
+  document.getElementById("cards").innerHTML = rows.map(c => {
+    const isTata = /tata/i.test(c.name || "");
+    const dots = [1,2,3,4,5].map(n =>
+      '<i class="' + (n <= (c.maturity||0) ? 'on' : '') + '"></i>').join("");
+    return '<div class="cc' + (isTata ? ' star' : '') + '">' +
+      '<div class="top"><h3>' + esc(c.name) + '</h3>' +
+        (isTata ? '<span class="badge">WHITE SPACE</span>' :
+                  '<span class="badge">maturity ' + (c.maturity||0) + '/5</span>') + '</div>' +
+      '<div class="mat">' + dots + '</div>' +
+      '<div class="pos">' + esc(c.position || "") + '</div>' +
+      '<div class="move"><b>Latest move:</b> ' + esc(c.key_message || "—") +
+        (c.source_url ? '<br><a class="src" href="' + esc(c.source_url) +
+          '" target="_blank" rel="noopener">Source ↗</a>' : '') +
+        (c.retrieved_at ? ' <span style="font-size:11px">· as of ' + fmtDate(c.retrieved_at) + '</span>' : '') +
+      '</div></div>';
+  }).join("");
+
+  document.getElementById("foot").textContent =
+    "Tata Communications · AI-Ready Networks Intelligence · refreshes weekly via GitHub Actions";
+}
+</script>
+</body>
+</html>
