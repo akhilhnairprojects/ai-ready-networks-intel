@@ -72,7 +72,7 @@ if __name__ == "__main__":
     rows = []
     for topic, feed_url in FEEDS.items():
         parsed = feedparser.parse(feed_url)
-        for e in parsed.entries[:12]:               # up to 12 findings per topic
+        for e in parsed.entries[:25]:               # up to 25 findings per topic
             snippet = strip_html(e.get("summary", "")) or e.get("title", "")
             rows.append(record({
                 "topic": topic,
