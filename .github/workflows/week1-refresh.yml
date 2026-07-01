@@ -1,0 +1,35 @@
+name: Week 1 - refresh market trends
+
+# WHAT THIS DOES: on a schedule (and whenever you click "Run workflow"), it runs
+# the Week 1 scraper in GitHub's cloud and saves the new data back into the repo.
+# The scraper itself only refreshes every 45 days, so running on the 1st and 15th
+# just means it checks twice a month and acts when 45 days have passed.
+
+on:
+  schedule:
+    - cron: "0 6 1,15 * *"     # 06:00 UTC on the 1st and 15th of each month
+  workflow_dispatch: {}         # this is the "Run workflow" button
+
+permissions:
+  contents: write               # lets the job save data back to the repo
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install libraries
+        run: pip install requests feedparser
+      - name: Run the Week 1 scraper
+        working-directory: scrapers
+        run: python week1_trends.py
+      - name: Save the results
+        run: |
+          git config user.name  "intel-bot"
+          git config user.email "intel-bot@users.noreply.github.com"
+          git add data/
+          git commit -m "Week 1 auto-refresh" || echo "No changes to save"
+          git push
