@@ -1,0 +1,32 @@
+name: Week 3 - refresh account scores
+
+# WHAT THIS DOES: every Monday (and whenever you click "Run workflow"), it runs
+# the Week 3 scoring model in GitHub's cloud and saves the new CSV back into the repo.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"         # 06:00 UTC every Monday
+  workflow_dispatch: {}         # this is the "Run workflow" button
+
+permissions:
+  contents: write               # lets the job save data back to the repo
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install libraries
+        run: pip install requests feedparser openpyxl
+      - name: Run the Week 3 scoring model
+        run: python scrapers/week3_scoring.py
+      - name: Save the results
+        run: |
+          git config user.name  "intel-bot"
+          git config user.email "intel-bot@users.noreply.github.com"
+          git add data/
+          git commit -m "Week 3 auto-refresh" || echo "No changes to save"
+          git push
