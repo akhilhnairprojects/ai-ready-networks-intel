@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-01T17:37:32.426317+00:00",
+  "generated_at": "2026-07-06T10:23:21.409410+00:00",
   "rows": [
     {
       "name": "Cisco",
       "maturity": 5,
       "position": "Broadest AI-networking portfolio; Ethernet + Silicon One.",
-      "key_message": "Upscale AI's $500M bet to reinvent AI networking - Fierce Network",
-      "last_move": "Wed, 01 Jul 2026 14:14:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcDlKdWktUWF2eGI3dWota0Jrd2Q3d3BYRlluMjJ6SUVocGw0MFlrZWhaRVViNTRicm0zSWNjM2pqdFZRT1lUeF9CNGVZNEdLb2kzTXBRM3lobUtNeHY1eWMyM0NwY3NiZy10TVhaX21mTnFyZzZkOTZLOS1UQzFWeGxQa3I4dzQ?oc=5",
-      "retrieved_at": "2026-07-01T17:37:28.601507+00:00"
+      "key_message": "Embedded network security: The ultimate defense against AI-driven threats - Cisco Blogs",
+      "last_move": "Wed, 01 Jul 2026 15:05:30 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQkVrQ3FkZkE0dExXMUdScW1wM1BON0lpV2puU0ZzQmhDRm96aXY2eWFvbjkzSFV2SV9zejBqN25xeF9hQ2gxZVVLNzdGTFJ3NS1DVktROUFJNmtFRUVXVjFCLXpyNEFvMWZDQmFqd2ktc3Y4R2twX3BnRldOaGh4ZUVYRkVxeDN5X2lBeWRueXVrdmNuM0ZPZWZKdHNjVkdCTFQ2WklrNEU0MU0?oc=5",
+      "retrieved_at": "2026-07-06T10:23:17.958530+00:00"
     },
     {
       "name": "Juniper Networks",
       "maturity": 5,
       "position": "AI-native ops (Mist) and strong data-center fabric.",
-      "key_message": "How is ScanSource Expanding HPE Partnership? - AIM Media House",
-      "last_move": "Wed, 01 Jul 2026 10:37:19 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS2dxanVTcTk3SFYxMWg2Z0Z2c0VlRHR1c1RQOU8zbExoQjVacnJza2l6U2FENE9TTTFIUGowN2kyN1V2S2RQTnJwUDZuRFU4OV9oeU5wdnNKSzlWRkt1S1lSbXVJa2YyelVtb2NqcHJiZnlxMndqMDdRei1Md01INFJlVnVEMHBZQUJvNERUTFozdlYzWlVOVU5lT2tvUGtrT2U0dWpReTZvTkpFQnNuTWxYMnA?oc=5",
-      "retrieved_at": "2026-07-01T17:37:29.113529+00:00"
+      "key_message": "HPE’s Datacenter Networking Picture Comes Into Clearer Focus - The Next Platform",
+      "last_move": "Wed, 17 Jun 2026 07:00:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQWttMEwtM3BxZTdlRTRYMUZ4MzR1M05XNFY0OUhQU0dEUldmNTZvNVVSLUV6ZUhybkFWRGxSaDN2Q3hDNHJZTkdtLTMxRkJidVZMLW82QnBCM3pTYkxIbVBjSW1zdndLS0l0ZmdkWVZlYTVOaHJYV1ZybUp6S0pfOVhxY2dycmtOcUlPVDlVTTFqV3VkTGNiZ0ZSSDByY3h6WHJqalFOUGNrZEYwYkpKdmFpYjg5QQ?oc=5",
+      "retrieved_at": "2026-07-06T10:23:18.458522+00:00"
     },
     {
       "name": "Lumen",
@@ -26,52 +26,52 @@
       "key_message": "Should Lumen’s Debt Exchange and Earnings Miss Reshape Its AI Network Growth Story for LUMN Investors? - Yahoo Finance",
       "last_move": "Sun, 14 Jun 2026 07:00:00 GMT",
       "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeV9hRjZ4dEUzNEw5U3h6OVkyN2xRQWU4Y2dPRVd2c3hFWDZ5MEdGWjhRWVg5X0wyWWRkRmxzSDNMdjk5cGZEZXMxbkpIOVRkTzhTZ3dKZzItLVJESEE1ZnBqczJCR1Z0SGd4NEk1TkNYelM1dzN1UG1oalBXb0EwTW9lSHl0cVR2LVZpZXdwQjUwN2phYVFXaGhzR2hmVE0?oc=5",
-      "retrieved_at": "2026-07-01T17:37:29.767592+00:00"
+      "retrieved_at": "2026-07-06T10:23:18.911336+00:00"
     },
     {
       "name": "AT&T",
       "maturity": 3,
       "position": "Enterprise connectivity scale; measured AI messaging.",
-      "key_message": "Person proposes at the very top of the Empire State Building - CBS News",
-      "last_move": "Wed, 01 Jul 2026 16:54:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcXJwQkhIeGtzcXlvbHJVVDV2cE5RSkpiYWx0NElkOWd6cjFKYUd6WDFOZVg0RFUzblJWTlBKcEFnWXl5RUpISWV3NDdjTmp0R1FCTmJlSl90SVVNUDV4X0hBaEtBTHJtaFR0ZFJXbmNPVnl1VXhBeXppTnljTVRoQzE5UW5UdGtUS0J3UDQ2Ry1ZNXN3OFJLcjlkNU84ZzNK?oc=5",
-      "retrieved_at": "2026-07-01T17:37:30.279519+00:00"
+      "key_message": "Russian missile and drone attack on Ukraine’s capital kills at least 11 - The Hill",
+      "last_move": "Mon, 06 Jul 2026 09:25:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNzZ2bDhGVUJzUTRaZWhXYWRuLTdjLTc1SHVJQ3dDaWRNa3pRN29GQ3JEclVrd2U0OVh0Mks0RDNtMDh4cnFnX3VGaVJqRVAzM0QxZmlieDRpZjRkR0J2aFlfSjdWSzJNamhQcmtqZWpyLU9PbGpnTHQ2REphUENJeTlPLVpzaU16cExwTVpVUFhDS183TEtLT0JIeGhOZFh5Vk5HLVN1dW5qUFR4ODlrQ1hlLThzSXdsMmNldWpBSVFPZzhXc2h3?oc=5",
+      "retrieved_at": "2026-07-06T10:23:19.458572+00:00"
     },
     {
       "name": "Verizon Business",
       "maturity": 3,
       "position": "Private networks and edge; growing AI narrative.",
-      "key_message": "Update: Verizon, BT merge international enterprise operations in 50:50 JV worth $4B - Fierce Network",
-      "last_move": "Tue, 30 Jun 2026 01:19:56 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYlQwSmlsNm5zZUlvWElnRE9kR1BRQndSYWx0Wkg5RWlWd2xlYXhPS1dvb0lMd044cmVKdWJ0MnFsSXRjYm8wS1dTS2Vnd2xnMGdMcEN3NTNTLVJyemNjZFlab25oOTBRMEZOQ3VyZGRKUmUzYXBSclhLTHh3UzE4a1JTc3BtR3duUXVTUmlvdU9pYXBnblZ2YnJJSUVVNFdSdE9tMGU2aFNIMzZIZVgw?oc=5",
-      "retrieved_at": "2026-07-01T17:37:30.775254+00:00"
+      "key_message": "Wireless Internet for the AI-era: network slicing enables SLA-backed service from Verizon Business - Verizon",
+      "last_move": "Thu, 18 Dec 2025 08:00:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcWZ5a1N0VXFRV1lDV3dsVUdWQWMxcFRUcE5hNjFYUHFTTjgxdTZ0VTktM3pNb3dYMFFvdjlaYjZDWkxNSkxRNTcxVWl0VFBORFhPVG9PNENQa3NBd0tJaGltMU9ZdXdyZjhlX21adTUyYUJ3V1NMTnhBcDc5dTBfTmhxeE9nZVF1bHBySHQwSGtMSS1aTzMxUC1PWGVHNkFHNGYzSDdxejRRRkd0NUZaWFp0RE9Wei1GYzEw?oc=5",
+      "retrieved_at": "2026-07-06T10:23:19.886879+00:00"
     },
     {
       "name": "NTT DATA",
       "maturity": 3,
       "position": "Global data-center footprint; systems-integration led.",
-      "key_message": "Wired for intelligence: A CIO guide to enterprise networking and AI - NTT Data",
-      "last_move": "Fri, 26 Jun 2026 09:41:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WQ2dieHJNY1QwYmxIUWNGVTZEUTBnUmdkQTdyMVRCalB0ZUpNQV93Q3dIN3A5YnRqR09zOGJ6YUFPTUh5UUFkUTEzMHRSZVN2cVJGWlJRYVYxOGNtMmdOQUJZV2hWUHVGajdqdWw3amtWVlFDUkRHaXR4QU14TGs?oc=5",
-      "retrieved_at": "2026-07-01T17:37:31.336592+00:00"
+      "key_message": "How agentic AI detects silent network degradation - NTT, Inc.",
+      "last_move": "Tue, 23 Jun 2026 06:20:55 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZy1aUktVeUVpdDNrM1JvSXgzUkY1ZEhxZmg4dnJ3dzJiUG4yY2UzY3dBYmVYNmhvWDgxMEE2M1NPbHhVVUQ0M29JRGNqOWRTVzl5RkVmbzROWE5SZnMxUldJUW5hRDU1RzVkQ25sS3ZzNzA2RzZKSl9PNzBwenp3Ul93VjQwYjY4NW8xejV3LS10OElqclVRTEg4VmZwQQ?oc=5",
+      "retrieved_at": "2026-07-06T10:23:20.351891+00:00"
     },
     {
       "name": "Orange Business",
       "maturity": 2,
       "position": "European strength; early AI-networking positioning.",
-      "key_message": "Orange Group taps insider Usman Javaid as chief AI officer - Fierce Network",
-      "last_move": "Thu, 25 Jun 2026 18:17:25 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNU9wREhSVDdFMVVqa3dPaHJZSTVqUDAxWkgxNHg5NTN5YkVuY25ZQ09XRmtOQ1FJTFRINFVMYUxfRzRMa1J2VXN1MWdoWlZjekpMZThfYUlwSHA0ZEpkYV9fclc4eVF1NTdOWE1yeVpfSVdyVzlMME9lMVZleURYa1RCMGNOQ2pDNGtlWldpaw?oc=5",
-      "retrieved_at": "2026-07-01T17:37:31.795258+00:00"
+      "key_message": "Orange Appoints Usman Javaid as Chief AI Officer to Accelerate AI Initiatives - The Fast Mode",
+      "last_move": "Tue, 30 Jun 2026 01:39:38 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOT2QzQ1dUeldjczc1Q3B6THJ5S241NXZjdm1Idm9vV3ZWUW5aall5OUlQYzYyR1RsMzNjRUo2YmdvXzF6X3kxVklsMjdfMWtUanZJUUt6NlBxMjNMTVhja1NaenIwRnVtczhWY2o2X054ckNvbE5SNzhwNElpdHhvRnUxb05jZUJuaEstMkROdlhWTnlmUkNYVm1MWFhpUjhUMkR3SzgwUG03YXVHazUycXBiS1RyT000NVBLV2tGYnZJYlowWjBHcGpJSzJGSGdkcW9R?oc=5",
+      "retrieved_at": "2026-07-06T10:23:20.863007+00:00"
     },
     {
       "name": "Tata Communications",
       "maturity": 2,
       "position": "Global neutral transport; subsea + emerging markets = white space.",
-      "key_message": "Tata Communications To Invest $152 Million In Subsea Cable Systems To Boost India-Singapore AI Corridor - Submarine Networks",
-      "last_move": "Wed, 01 Jul 2026 08:44:16 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT2M4VXRLYzZYQUluSGNHbzJLak1zbkJNNDctUERienByenpfYm9ZaXlHdkstRDhZRDY2ajllYlUyRmhRb3VmTTNQUUhsRUpSY0Y4NDQ5NTM1OTFtMmJ1WVQ3YnNlSzdzd0hsZ050TEc3QnlnSzV6MmVlMjdLZXN4T0xCR0VJaklkR1VrSllxU1NrY2FpalBCd0lnNmN3SXE3QURGaDVVdzNONUZuS2RfZnJLUjdLcjVQNlE?oc=5",
-      "retrieved_at": "2026-07-01T17:37:32.426123+00:00"
+      "key_message": "Tata Communications Strengthens India - Singapore Digital Corridor with AI-Ready Connectivity Investments - PR Newswire UK",
+      "last_move": "Mon, 06 Jul 2026 10:05:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVlJBY05RYTBUYjR6YnlLUFBTRVFKUVVmZnBXRUFSclpYM01EZExmRzdXRFBmcXBKM1ZEUC1KWVJRQTZzRlc0U2p0MldjZy1GQ0NiS0ZDNy00RmVqTGp4Z3hGZS1VWExnenhtSHlGWG1iOWFlTUt2QXVrNkhvZ05HX0NTS1N4and1Zzl0NGEzTGgxRnBiTElxLWttbG04V2FjMDFGYUF0cVk4SkZaRGxYNzU2TU1KZU5CT2tpR2pEd1FfbTFyTEZFeHF1Q21qSWtCUkdnY0dFTDFwa25tRzM4ZGdLcGdYejN6VmJUX1d5MU5Pd1lq?oc=5",
+      "retrieved_at": "2026-07-06T10:23:21.409254+00:00"
     }
   ]
 }
