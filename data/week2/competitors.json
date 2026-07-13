@@ -1,77 +1,77 @@
 {
-  "generated_at": "2026-07-06T10:23:21.409410+00:00",
+  "generated_at": "2026-07-13T09:28:01.651475+00:00",
   "rows": [
     {
       "name": "Cisco",
       "maturity": 5,
       "position": "Broadest AI-networking portfolio; Ethernet + Silicon One.",
-      "key_message": "Embedded network security: The ultimate defense against AI-driven threats - Cisco Blogs",
-      "last_move": "Wed, 01 Jul 2026 15:05:30 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQkVrQ3FkZkE0dExXMUdScW1wM1BON0lpV2puU0ZzQmhDRm96aXY2eWFvbjkzSFV2SV9zejBqN25xeF9hQ2gxZVVLNzdGTFJ3NS1DVktROUFJNmtFRUVXVjFCLXpyNEFvMWZDQmFqd2ktc3Y4R2twX3BnRldOaGh4ZUVYRkVxeDN5X2lBeWRueXVrdmNuM0ZPZWZKdHNjVkdCTFQ2WklrNEU0MU0?oc=5",
-      "retrieved_at": "2026-07-06T10:23:17.958530+00:00"
+      "key_message": "The R&A Partners with Cisco to Deliver Critical IT Infrastructure - Cisco Newsroom",
+      "last_move": "Wed, 08 Jul 2026 08:04:27 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPVXRxakRuNUtRZDA3SUl5V0lnalpFUHRrX3BheU04SDJMbUY0d2RPYXlSWlJoLWEzYWYzYXhCbnJ3WXZBWV9GQUtzaGFGcjdseWNBcnJONmtVRFpHS180bHJ6Z3VuMXlyQ01MNFVYOHYzNi1zaFhhX000cG1sX1JMd2J5ck1oU0hSZGM4RjM4ckJSQ3JsWXNndV9sSlUxaEZaTmZsczJRYkZSN3ZhLWhPYmlpTlFySGNfT0xnZlBtOEJvZXcxbmdvT1V1bXNPaWVIWUpybHlpbEdYUVZXNWNyckU5UjRrQVF3d1l0ZUt5UDFtVEFMYkpDSkZ4T3M2dW9MdG1ld0NUZ1RBeGFyVlZYcmFmdWYzZw?oc=5",
+      "retrieved_at": "2026-07-13T09:27:58.240112+00:00"
     },
     {
       "name": "Juniper Networks",
       "maturity": 5,
       "position": "AI-native ops (Mist) and strong data-center fabric.",
-      "key_message": "HPE’s Datacenter Networking Picture Comes Into Clearer Focus - The Next Platform",
-      "last_move": "Wed, 17 Jun 2026 07:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQWttMEwtM3BxZTdlRTRYMUZ4MzR1M05XNFY0OUhQU0dEUldmNTZvNVVSLUV6ZUhybkFWRGxSaDN2Q3hDNHJZTkdtLTMxRkJidVZMLW82QnBCM3pTYkxIbVBjSW1zdndLS0l0ZmdkWVZlYTVOaHJYV1ZybUp6S0pfOVhxY2dycmtOcUlPVDlVTTFqV3VkTGNiZ0ZSSDByY3h6WHJqalFOUGNrZEYwYkpKdmFpYjg5QQ?oc=5",
-      "retrieved_at": "2026-07-06T10:23:18.458522+00:00"
+      "key_message": "HPE networking exec touts AI advantage over Cisco - SDxCentral",
+      "last_move": "Tue, 07 Jul 2026 20:53:11 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRktXbEsxaHNVSEhvNXlKQlZmOW90V2F3S1F4emhwUzNUb0N6TjYzUHRZcDkyX3l1NnlzeWNUX1hEdWc0NHJXVmZQOURMOUQ2S2pMZ3EtN2NyMHphUkFQUUE3TGFIQWJNblU3Njk0X3hLLUo5R1N1Qk9paldMNV9qLXh6WVg0S1dKWUVlWFcwcw?oc=5",
+      "retrieved_at": "2026-07-13T09:27:58.705839+00:00"
     },
     {
       "name": "Lumen",
       "maturity": 3,
       "position": "Low-latency AI transport; network-as-a-service push.",
-      "key_message": "Should Lumen’s Debt Exchange and Earnings Miss Reshape Its AI Network Growth Story for LUMN Investors? - Yahoo Finance",
-      "last_move": "Sun, 14 Jun 2026 07:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeV9hRjZ4dEUzNEw5U3h6OVkyN2xRQWU4Y2dPRVd2c3hFWDZ5MEdGWjhRWVg5X0wyWWRkRmxzSDNMdjk5cGZEZXMxbkpIOVRkTzhTZ3dKZzItLVJESEE1ZnBqczJCR1Z0SGd4NEk1TkNYelM1dzN1UG1oalBXb0EwTW9lSHl0cVR2LVZpZXdwQjUwN2phYVFXaGhzR2hmVE0?oc=5",
-      "retrieved_at": "2026-07-06T10:23:18.911336+00:00"
+      "key_message": "Lumen Completes Alkira Acquisition, Accelerating Its Unified Digital Platform for AI-Era Networking - Lumen - Investor Relations",
+      "last_move": "Tue, 07 Jul 2026 12:04:20 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOT0ZoczZGRVNmZi1yVjNjQWZqMGROVXpKVjZPUl9Dbzl6YnNkd09xOHd3Y1NFcV9HS3hYbDBMdDl3cVpvRzQ1R2hWZEx0OXRHWHNSeXdoNmFvT1o5NElsRldNcmRGZlZ2QnplOHNpTGFGa3lGSUtvRDk0dkN6SnZxdjJXbUc2dmQ4MkpDWVVPN0ZMRnNfY2hJb1BxcGpXWlJaT0U3UUUybnh6ZlJwTDJKbzFFLVdmc2RhdklieUIzSVVkQXVCOUwtbktSNkZYdm5NOGtNTVZIalZUOEE5RUtvbFFacnl2RFJZSXNV?oc=5",
+      "retrieved_at": "2026-07-13T09:27:59.173931+00:00"
     },
     {
       "name": "AT&T",
       "maturity": 3,
       "position": "Enterprise connectivity scale; measured AI messaging.",
-      "key_message": "Russian missile and drone attack on Ukraine’s capital kills at least 11 - The Hill",
-      "last_move": "Mon, 06 Jul 2026 09:25:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNzZ2bDhGVUJzUTRaZWhXYWRuLTdjLTc1SHVJQ3dDaWRNa3pRN29GQ3JEclVrd2U0OVh0Mks0RDNtMDh4cnFnX3VGaVJqRVAzM0QxZmlieDRpZjRkR0J2aFlfSjdWSzJNamhQcmtqZWpyLU9PbGpnTHQ2REphUENJeTlPLVpzaU16cExwTVpVUFhDS183TEtLT0JIeGhOZFh5Vk5HLVN1dW5qUFR4ODlrQ1hlLThzSXdsMmNldWpBSVFPZzhXc2h3?oc=5",
-      "retrieved_at": "2026-07-06T10:23:19.458572+00:00"
+      "key_message": "Deadly fire breaks out at a pub in Bangkok - NBC News",
+      "last_move": "Mon, 13 Jul 2026 08:30:12 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRmxvQXVXN1dpMTRJUEFDdGdqQndrMEZ2OXhKS0I4emQ2bFo2YjB5ZFdIZDB5WEo5Xy1GNlRMb1gxV3ZTcE1WRXdJNENCSmFTRkh4TTljbFhiVlJiNTgwQkZob05kS3BEVjhITVNLZWpHdC1PNkE1N2FjanAxSW1pc2lWSEVLUHd5WkJ1UVZwY3RfTGdlLVVOOVBCM0dsRGM?oc=5",
+      "retrieved_at": "2026-07-13T09:27:59.665549+00:00"
     },
     {
       "name": "Verizon Business",
       "maturity": 3,
       "position": "Private networks and edge; growing AI narrative.",
-      "key_message": "Wireless Internet for the AI-era: network slicing enables SLA-backed service from Verizon Business - Verizon",
-      "last_move": "Thu, 18 Dec 2025 08:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcWZ5a1N0VXFRV1lDV3dsVUdWQWMxcFRUcE5hNjFYUHFTTjgxdTZ0VTktM3pNb3dYMFFvdjlaYjZDWkxNSkxRNTcxVWl0VFBORFhPVG9PNENQa3NBd0tJaGltMU9ZdXdyZjhlX21adTUyYUJ3V1NMTnhBcDc5dTBfTmhxeE9nZVF1bHBySHQwSGtMSS1aTzMxUC1PWGVHNkFHNGYzSDdxejRRRkd0NUZaWFp0RE9Wei1GYzEw?oc=5",
-      "retrieved_at": "2026-07-06T10:23:19.886879+00:00"
+      "key_message": "How Verizon Business is wooing an indirect channel for its AI-re-defined network - Diginomica",
+      "last_move": "Thu, 09 Jul 2026 14:17:53 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUFlEaU1GLWxRbklrOGJtRXJ6T0ZvNFVhcnZ4Zm4tMkNvWkxiTnlqSWlmZndFT3VZQnJ4MmoyTFNfTHFBTEJQOThaa3FnZ1ZhUFNTMVU2YkYwQmJyWXFhdVcwd0dTeTZIb2xXT0JXaWJoMTZnaThyamJWa1plNDNmbUYzWGNmVWpBSktmSlpNbGhkVUZ5QUxpUg?oc=5",
+      "retrieved_at": "2026-07-13T09:28:00.111431+00:00"
     },
     {
       "name": "NTT DATA",
       "maturity": 3,
       "position": "Global data-center footprint; systems-integration led.",
-      "key_message": "How agentic AI detects silent network degradation - NTT, Inc.",
-      "last_move": "Tue, 23 Jun 2026 06:20:55 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZy1aUktVeUVpdDNrM1JvSXgzUkY1ZEhxZmg4dnJ3dzJiUG4yY2UzY3dBYmVYNmhvWDgxMEE2M1NPbHhVVUQ0M29JRGNqOWRTVzl5RkVmbzROWE5SZnMxUldJUW5hRDU1RzVkQ25sS3ZzNzA2RzZKSl9PNzBwenp3Ul93VjQwYjY4NW8xejV3LS10OElqclVRTEg4VmZwQQ?oc=5",
-      "retrieved_at": "2026-07-06T10:23:20.351891+00:00"
+      "key_message": "What network managers really want - NTT Data",
+      "last_move": "Wed, 08 Jul 2026 22:16:33 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMm1rZXl3dmFoWEdHMDJTT251MkF1NzBpWnFGckVtalFiLTJmQ09ySU50NDYzMGs5cW5fYy12VzRjZkVmMGNEdEFXaXFTeVViRWd4OW1CVVRJRG52enRkSnYtSF93aUJITmlqeWNRS1dJVVJPTDFka0RvaEFTYmxaZmNKbnZValltS1RLRk5tRU9lVl83Yi1sZTFxaUdWMWZwMjdoZ0Vhaw?oc=5",
+      "retrieved_at": "2026-07-13T09:28:00.635235+00:00"
     },
     {
       "name": "Orange Business",
       "maturity": 2,
       "position": "European strength; early AI-networking positioning.",
-      "key_message": "Orange Appoints Usman Javaid as Chief AI Officer to Accelerate AI Initiatives - The Fast Mode",
-      "last_move": "Tue, 30 Jun 2026 01:39:38 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOT2QzQ1dUeldjczc1Q3B6THJ5S241NXZjdm1Idm9vV3ZWUW5aall5OUlQYzYyR1RsMzNjRUo2YmdvXzF6X3kxVklsMjdfMWtUanZJUUt6NlBxMjNMTVhja1NaenIwRnVtczhWY2o2X054ckNvbE5SNzhwNElpdHhvRnUxb05jZUJuaEstMkROdlhWTnlmUkNYVm1MWFhpUjhUMkR3SzgwUG03YXVHazUycXBiS1RyT000NVBLV2tGYnZJYlowWjBHcGpJSzJGSGdkcW9R?oc=5",
-      "retrieved_at": "2026-07-06T10:23:20.863007+00:00"
+      "key_message": "Orange Group taps insider Usman Javaid as chief AI officer - Fierce Network",
+      "last_move": "Thu, 25 Jun 2026 07:00:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNU9wREhSVDdFMVVqa3dPaHJZSTVqUDAxWkgxNHg5NTN5YkVuY25ZQ09XRmtOQ1FJTFRINFVMYUxfRzRMa1J2VXN1MWdoWlZjekpMZThfYUlwSHA0ZEpkYV9fclc4eVF1NTdOWE1yeVpfSVdyVzlMME9lMVZleURYa1RCMGNOQ2pDNGtlWldpaw?oc=5",
+      "retrieved_at": "2026-07-13T09:28:01.114776+00:00"
     },
     {
       "name": "Tata Communications",
       "maturity": 2,
       "position": "Global neutral transport; subsea + emerging markets = white space.",
-      "key_message": "Tata Communications Strengthens India - Singapore Digital Corridor with AI-Ready Connectivity Investments - PR Newswire UK",
-      "last_move": "Mon, 06 Jul 2026 10:05:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVlJBY05RYTBUYjR6YnlLUFBTRVFKUVVmZnBXRUFSclpYM01EZExmRzdXRFBmcXBKM1ZEUC1KWVJRQTZzRlc0U2p0MldjZy1GQ0NiS0ZDNy00RmVqTGp4Z3hGZS1VWExnenhtSHlGWG1iOWFlTUt2QXVrNkhvZ05HX0NTS1N4and1Zzl0NGEzTGgxRnBiTElxLWttbG04V2FjMDFGYUF0cVk4SkZaRGxYNzU2TU1KZU5CT2tpR2pEd1FfbTFyTEZFeHF1Q21qSWtCUkdnY0dFTDFwa25tRzM4ZGdLcGdYejN6VmJUX1d5MU5Pd1lq?oc=5",
-      "retrieved_at": "2026-07-06T10:23:21.409254+00:00"
+      "key_message": "Tata Communications Strengthens India - Singapore Digital Corridor with AI-Ready Connectivity Investments - PR Newswire",
+      "last_move": "Mon, 06 Jul 2026 10:01:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPVDZFRFQ4Rjg1bHRfdVNNUWRHQTVtM0RKbnFvRXJqVFJIRUR0TGV1aGVLYktFZjRUUmpEbWh2WGl3RE1fUzhEQ2xxRjFBdDlnX1RwcEZobUxhTDUzb3VZOGVwMzAxeWowN3Fzc1VqSmZuTFBINmNMR1NWOHBxRkdYNHVKU3BROE9WYWQ4R3hsYldXOTctdmZscDcyOXRCQWF1Q3RFWUc1dFhLcEItZWZnSWNtYm0tVmRiUFdaTl9oUW5IbEFPdmdSLXE1TS1pSkdoc1FBM1ZkbmQ3eVNxUVhfb0V4c1FGMXlaMTU3eUN1UnFJZw?oc=5",
+      "retrieved_at": "2026-07-13T09:28:01.651370+00:00"
     }
   ]
 }
