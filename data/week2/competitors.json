@@ -1,50 +1,50 @@
 {
-  "generated_at": "2026-08-31T12:53:31.073763+00:00",
+  "generated_at": "2026-09-07T11:44:54.857127+00:00",
   "rows": [
     {
       "name": "Cisco",
       "maturity": 5,
       "position": "Broadest AI-networking portfolio; Ethernet + Silicon One.",
-      "key_message": "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live - Cisco Newsroom",
-      "last_move": "Mon, 31 Aug 2026 11:21:35 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWU5KM0Jrbi0xeXRibjZNelkzUFpFTFRfMElETmV5eFRxbC1scWlReS1ocGI0dVFIMEd1ZDhXc08tb3JPQnFKZFJQM095MEtpcjZYSC1uNGtnck1ydGphZHpRNEVhVkdWSDNpTjB2SHliRkt4SW9PMFNoZ2RfUUNZaTVIb0dBOXhPbE5lVGtFYnN2TndrSmg4bnlzTjhvZnBqa0hGTW5jajAtQlF4V2lPRll0YktlOXpuYzkwbDVhdWxqQ0NsM0E?oc=5",
-      "retrieved_at": "2026-08-31T12:53:27.149030+00:00"
+      "key_message": "The Backbone of Modern AI Data Centers: Networking the Gray Space - Cisco Blogs",
+      "last_move": "Thu, 03 Sep 2026 13:20:07 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcTFaQ2dtV3d5NnA3d3pleU96NnlSNU5kWUZtQ3oydlZvckZ1NE1tUVpuaHdEZHNxam82cGs1TmhoVENKTEh6VlNmM2NFd09ESUlVWUtwU0pPZjVEbXdYRzA3UFpUYm9lclV2MWJWZ2FnMFg1bzEtNkkwZkdScU9xbXNNY1VGeEdiMWZWclBueDFCVHR6T1F5aDJReVBmdHhTQXlDajJn?oc=5",
+      "retrieved_at": "2026-09-07T11:44:51.426515+00:00"
     },
     {
       "name": "Juniper Networks",
       "maturity": 5,
       "position": "AI-native ops (Mist) and strong data-center fabric.",
-      "key_message": "HPE vs. CSCO: Which Stock Has an Edge in the Networking Space? - TradingView",
-      "last_move": "Thu, 27 Aug 2026 15:41:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQ3RIMXZBMFl6WlZuaDZSZVQ2ZUpLbnBqMnBmUHlvU01za2o3Tm1lb1pYSmk5SDNjdEY0elBLNktVRTh6SjNxSEY5R1hiNXdNOW1aaDFIZC1OWVh4RmpaVTZ4ZVpKblF3bEdvN1ZNUGtMN1pieVo2SzE1YUFYM3R6R0ExYWdxcnN5eUZPWnU3WkZ4R0tlZ2dEQmtRZjk2c1dvM0FBODY1S0F2MzIxbWNkbGkzcHpJZw?oc=5",
-      "retrieved_at": "2026-08-31T12:53:27.647515+00:00"
+      "key_message": "Oracle expands HPE Juniper Networking deal to support AI infrastructure build-out - IT Pro",
+      "last_move": "Fri, 04 Sep 2026 10:27:14 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYnc0SGFFRVJ0UnhNV2NPVVlGandqaGtXUlFIemw3TWx0MDFtWUJkTWk3SU43N1AxYUtBUFdsRi04NFVOcjJEVnV3Y21xQWtuWEJvdHpaTC1GMENSb0VUUkJZc28wa2RSYWd0YXRwLWMzNWZHZ3hQbktzTU9GMkVuTFZ4LUMweG5ncE5vRGFwVjJvajV1Ml9kWmVUNXlLN3Fid3NpVHQ2M1ROSTFDdUZScEU5TVpUNVRONURuUk9wa1NhbVI5SWNhQw?oc=5",
+      "retrieved_at": "2026-09-07T11:44:51.925926+00:00"
     },
     {
       "name": "Lumen",
       "maturity": 3,
       "position": "Low-latency AI transport; network-as-a-service push.",
-      "key_message": "Lumen’s Alkira Acquisition Pushes Partners Into AI Networking - Telecom Reseller / Technology Reseller News",
-      "last_move": "Fri, 28 Aug 2026 17:12:36 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5UZ3NNcTdkaVJBRUZCaE9fVk1NdTBERk1nQXpaYzlRMjdVNEV3T2U4UEd2RDM1VzEyUHJVd1ZfdmJlWWNsLTdOc3FKWkEwWXpUQ1Y5VDZuRm9KazFPWHpNUDd1RFBaTkdUSkE1dVB1ZkdiVUnSAXhBVV95cUxNU0h4dFotVldlekIzdkhiNkxVbDlvWUdYMDVPYTJRNGRUdmdjcEE4czBzMHo1UV9MSjFCR3E5VlRpa3U4T2hfblVGUmh5S2hIYVFOZ0FXdTdJdmpldElmLTMzVkE4SUlSSXpLS0ZVZG1IZUJWX2lkZ1M?oc=5",
-      "retrieved_at": "2026-08-31T12:53:28.195738+00:00"
+      "key_message": "Is Your Network Ready for AI and Next-Generation Connectivity? - Lumen Technologies",
+      "last_move": "Mon, 13 Apr 2026 07:00:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TOXBSYTZ5VEFuTWI2MnFGN0lCZ0VrellTaEVoaDVDWVY0Q2R4ZlhOSlhicFNWNl8xbUM2Vl9IMW5lQzJJbUhUQlAweFdnX25BeGl5TEctUnBIOHZmYnMzQnhKWnA4dzFfMTZYRHlDTjBBXzB3?oc=5",
+      "retrieved_at": "2026-09-07T11:44:52.424397+00:00"
     },
     {
       "name": "AT&T",
       "maturity": 3,
       "position": "Enterprise connectivity scale; measured AI messaging.",
-      "key_message": "No. 1 Ohio State vs. No. 4 Texas—Get tickets for the game of the year - USA Today",
-      "last_move": "Mon, 31 Aug 2026 12:31:51 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZWwxUnpHdWdqTjktY0lxb21wbHRuNF9XTFZfT3NrV0VBeXdhM29UUGk1Qk5DMUpiakVxZGg0cGxmdjlnd0J3WWRaUGxISmgtN3FYYUUzVUF5S1JYU3dxaTJ1VmJHUUpTcDc3andscC1pQ1ZGdzFqc01OZmpTWHpkLXlyNmx4TXM4d2FkZ2lyenR3SWRoRExNY3Zud09QN0dTRkk0am93UG1qeElqWFE1bEdVcF9DRDYyQjAzampVMTZWYXVKemhRM1NfZldHXzQ?oc=5",
-      "retrieved_at": "2026-08-31T12:53:28.771043+00:00"
+      "key_message": "Cody Rhodes comes to a crossroads after losing to Randy Orton at WWE Sunday Night's Main Event - Fox News",
+      "last_move": "Mon, 07 Sep 2026 10:55:28 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR25uVVBvYTd0TExGMWp2b0xQNU80TnR1OHc0dnZ5VnJOenlJcjV5VE1SbHRCZ1p6YmNVOGMtSHcxOFlra3czb3ppeUctcjhrbmRYYV9VbjB0UFpLSTBNMTlCSmREQ3FtSGhvQnJrOWJwdTFUcXptN2lDcDlnMzdvY0M5cHpkOC1IZVNRODl5VUkyTVN1bVhXS1pTOUwxeDgtNEtjV0ZITkZ4Y1VC?oc=5",
+      "retrieved_at": "2026-09-07T11:44:52.885545+00:00"
     },
     {
       "name": "Verizon Business",
       "maturity": 3,
       "position": "Private networks and edge; growing AI narrative.",
-      "key_message": "Verizon Business tops JD Power study | About Verizon - Verizon",
-      "last_move": "Wed, 26 Aug 2026 23:41:13 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1WT0hENl9RR3hxT045RlY2NF9nQlhwbjdfbDlZMGtFbEVicU1KOEZUcUFhd19UZUZpLUN1WDZHMHk4N0VDTjlSZnFBODJuQUVNRnZzS3hNemRzSzIzd2NMXzVjQ05sTTcxcnVqV0xGOEhDWUY0SXVVelVINA?oc=5",
-      "retrieved_at": "2026-08-31T12:53:29.276056+00:00"
+      "key_message": "Google Cloud Announces Strategic Partnership with Verizon to Scale Enterprise AI - Aug 24, 2026 - Google Cloud Press Corner",
+      "last_move": "Mon, 24 Aug 2026 07:00:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWnlZcHctY2lOakN4YXVGM3dHb2VqY1hzenZMbUREZ2tBNmZ0OHZwRV9HZ1FzcFVMZGZYLWwzZEJSdjJ2NU1MQXR2Zi16WDk0Tm1WZEdmZkM1YXJWc1VvbmdzZGVmV1YwTHpXLUpvalJuQW5pUGZtZ3dNQXZvNUJXbENQLVFEZnlKbE4tdEVFUkVUSDB5TktkTmh4aEhZNW1QLUhXTm9IbmI0aFpHejBVMzdnMm1sWFNGUDlUZlhBYVdyMGZQdUxQZ2x3?oc=5",
+      "retrieved_at": "2026-09-07T11:44:53.303247+00:00"
     },
     {
       "name": "NTT DATA",
@@ -53,7 +53,7 @@
       "key_message": "Physical AI: Intelligence at the edge - NTT Data",
       "last_move": "Mon, 17 Aug 2026 07:00:00 GMT",
       "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSjlELTV4OC1CX1FCMjVuVkJPcWZTWFo3OVIxQXZ5cFpWU012UUFnMnM3dWNwZ3NadVZjcWNlbjRFdGtzcF9ab0RscWNOTXkxLTQ2RmZoajRXMmhiY084VEJRZllvcWNBbGhvV2RyYzVjRGNsNFVWMFVGODFUSXRULVVEYlhsNl9HR1R5ZVctcnEzdFMya1dEX1hFVWhDVF9XdU5LU0owWERKNElsaXZ3b2QxdE56VU05MXI0?oc=5",
-      "retrieved_at": "2026-08-31T12:53:29.817610+00:00"
+      "retrieved_at": "2026-09-07T11:44:53.812502+00:00"
     },
     {
       "name": "Orange Business",
@@ -62,7 +62,7 @@
       "key_message": "Orange creates internal AI cloud for employees, sells to businesses, too - Fierce Network",
       "last_move": "Fri, 17 Jul 2026 07:00:00 GMT",
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWW9QcExVSGZpODR4QzA4azNvQUxrZWFWY0FweXZRWGJKQ01XWURfdmZoVnFUMng1dEtkY3FldXJzZk5Sak5ramlLb056WFllNkdGV0tYeXc3cnM0eTN6Ung3dExkZDJkRjNPemsyMDh5Tkd0VmlPMThPVUJpVEJWOF90YnY5WHExZk5acGlFcHRseDQ3YkFsYlJXSXIydEIyd3RoeG1xTQ?oc=5",
-      "retrieved_at": "2026-08-31T12:53:30.366581+00:00"
+      "retrieved_at": "2026-09-07T11:44:54.338489+00:00"
     },
     {
       "name": "Tata Communications",
@@ -71,7 +71,7 @@
       "key_message": "Tata Communications latest to restructure as AI reshapes networks - Light Reading",
       "last_move": "Fri, 24 Jul 2026 07:00:00 GMT",
       "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcjlUdWlPWG40WFdvejJ5RnpfelhLU05Fc280eGdGcldQVGVFQk5RR3VOM1NnZVB1LXFXdW9URHNTMXNtU2txcjFGcjV4VGk5LWNwaEZlUnVZVERCTDBBci1DNDBVWEwwNzJUUEpGMXdHTG5vM1hfQUEwM3JpQ3dxcmxZWXMwdWJCem5Oa2FHc2UtdzNBTER1YW9lSWZHSU1meEV2LVZkLWQ?oc=5",
-      "retrieved_at": "2026-08-31T12:53:31.073602+00:00"
+      "retrieved_at": "2026-09-07T11:44:54.856991+00:00"
     }
   ]
 }
