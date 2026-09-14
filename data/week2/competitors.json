@@ -1,59 +1,59 @@
 {
-  "generated_at": "2026-09-07T11:44:54.857127+00:00",
+  "generated_at": "2026-09-14T11:59:16.594970+00:00",
   "rows": [
     {
       "name": "Cisco",
       "maturity": 5,
       "position": "Broadest AI-networking portfolio; Ethernet + Silicon One.",
-      "key_message": "The Backbone of Modern AI Data Centers: Networking the Gray Space - Cisco Blogs",
-      "last_move": "Thu, 03 Sep 2026 13:20:07 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcTFaQ2dtV3d5NnA3d3pleU96NnlSNU5kWUZtQ3oydlZvckZ1NE1tUVpuaHdEZHNxam82cGs1TmhoVENKTEh6VlNmM2NFd09ESUlVWUtwU0pPZjVEbXdYRzA3UFpUYm9lclV2MWJWZ2FnMFg1bzEtNkkwZkdScU9xbXNNY1VGeEdiMWZWclBueDFCVHR6T1F5aDJReVBmdHhTQXlDajJn?oc=5",
-      "retrieved_at": "2026-09-07T11:44:51.426515+00:00"
+      "key_message": "Arista Released Critical Security Advisories. Cisco Shows Why AI Network Growth Also Creates Repair Work - Yahoo Finance",
+      "last_move": "Sun, 13 Sep 2026 16:56:52 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRjdBUWliUjI3S09qNjhjSkVZZnltQnJDb0ExNVhEM0tpbU1ZVmdZMmFQdWhyaGdyTE5mQXdzR0FDckVRR2d6aTFnSFJieVlNaG9zMWhNcnN2VVRKWkh4WHg5cTBFREFUU1Y4clZud0JJbl91YlFFYWltalJSeW43RGQwWGVqaE9WejBtRW92VzJES1dGcUNMY0dGUFVOZlBYSE1jT3RBeHV6cnpC?oc=5",
+      "retrieved_at": "2026-09-14T11:59:13.242912+00:00"
     },
     {
       "name": "Juniper Networks",
       "maturity": 5,
       "position": "AI-native ops (Mist) and strong data-center fabric.",
-      "key_message": "Oracle expands HPE Juniper Networking deal to support AI infrastructure build-out - IT Pro",
-      "last_move": "Fri, 04 Sep 2026 10:27:14 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYnc0SGFFRVJ0UnhNV2NPVVlGandqaGtXUlFIemw3TWx0MDFtWUJkTWk3SU43N1AxYUtBUFdsRi04NFVOcjJEVnV3Y21xQWtuWEJvdHpaTC1GMENSb0VUUkJZc28wa2RSYWd0YXRwLWMzNWZHZ3hQbktzTU9GMkVuTFZ4LUMweG5ncE5vRGFwVjJvajV1Ml9kWmVUNXlLN3Fid3NpVHQ2M1ROSTFDdUZScEU5TVpUNVRONURuUk9wa1NhbVI5SWNhQw?oc=5",
-      "retrieved_at": "2026-09-07T11:44:51.925926+00:00"
+      "key_message": "How the Juniper Networks Deal is Paying Off for HPE - Futuriom",
+      "last_move": "Tue, 08 Sep 2026 17:34:42 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQTlwZlU4c21WMGZlekowU2d6N1RIRUdjYzJoeGcySFFxRms3Q1ZZcXZoNG90QmxyTjlGZVJGaUtvUEFkLWNxcFhmNk5kUlY1d2RMZlQzelNxV3VoTzY3Vi1XM2h0ZlNwS21Zd2tmSGZ5MHY3VndSUWdXTldObkNTQlVFbHdtdFE4TFBDZDZuX1lLYlA1aHBicWUyOFgwODQ?oc=5",
+      "retrieved_at": "2026-09-14T11:59:13.740784+00:00"
     },
     {
       "name": "Lumen",
       "maturity": 3,
       "position": "Low-latency AI transport; network-as-a-service push.",
-      "key_message": "Is Your Network Ready for AI and Next-Generation Connectivity? - Lumen Technologies",
-      "last_move": "Mon, 13 Apr 2026 07:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TOXBSYTZ5VEFuTWI2MnFGN0lCZ0VrellTaEVoaDVDWVY0Q2R4ZlhOSlhicFNWNl8xbUM2Vl9IMW5lQzJJbUhUQlAweFdnX25BeGl5TEctUnBIOHZmYnMzQnhKWnA4dzFfMTZYRHlDTjBBXzB3?oc=5",
-      "retrieved_at": "2026-09-07T11:44:52.424397+00:00"
+      "key_message": "Lumen Technologies Maps AI Networking Growth Strategy at Citi Conference - MarketBeat",
+      "last_move": "Fri, 11 Sep 2026 09:04:15 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVFhka2Rjd0dRUXhZRjB3Mkl6V3F5aG5Ubk9pOVlTa1loc0owSEdvdmVHcmxpOWh2bFBSX2FYNlFDbDJhTHRzLWJLTTQxM1dFbFFrMkJIdGNRQU5wTFY5T3VKX1hMN3ZoM1dYTU5LX3huZXlxS3RHVXlsWVg5V3RaTmEtVmxxYl94QzV5WEdxUy1PNlBqYVpHVTNsT2FSZ29COVNLRGxpOFlyQ0hxWk5TaXE2OTRXdk5ZMHl2YVBpcUJVUUItVlplT1RYekE?oc=5",
+      "retrieved_at": "2026-09-14T11:59:14.229834+00:00"
     },
     {
       "name": "AT&T",
       "maturity": 3,
       "position": "Enterprise connectivity scale; measured AI messaging.",
-      "key_message": "Cody Rhodes comes to a crossroads after losing to Randy Orton at WWE Sunday Night's Main Event - Fox News",
-      "last_move": "Mon, 07 Sep 2026 10:55:28 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR25uVVBvYTd0TExGMWp2b0xQNU80TnR1OHc0dnZ5VnJOenlJcjV5VE1SbHRCZ1p6YmNVOGMtSHcxOFlra3czb3ppeUctcjhrbmRYYV9VbjB0UFpLSTBNMTlCSmREQ3FtSGhvQnJrOWJwdTFUcXptN2lDcDlnMzdvY0M5cHpkOC1IZVNRODl5VUkyTVN1bVhXS1pTOUwxeDgtNEtjV0ZITkZ4Y1VC?oc=5",
-      "retrieved_at": "2026-09-07T11:44:52.885545+00:00"
+      "key_message": "Athletes with autism take center court at the US Open - CNBC",
+      "last_move": "Mon, 14 Sep 2026 11:00:02 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZW1zem9FdTBPTkJtUGNpdTN3STgzQW9ERC1yNkEyT3VBUWRuS01kSlcxbHZQRUNfNkZ3Z2VueFM3ZDA4b0N4blNWblFjdTcyUm03WGJDNXJiRlNTdThXdE41QTRuWXBDVkR3bU84VUNCb3ZndUg2ZUlKdTE3NWNCb3VCUmVROHdabVJSYlotT282TkIz0gGaAUFVX3lxTE1qRTd1UDlTRHVUUkRjY3RYUmU2RER0WDFwYnFXOEo1SFVkYzJnMFFTSl8zZm5IdV9HcjFwR1JyYW9tMWJ1VGpoV2JJT2wyTU04QkxfNGNnUlBZM096aWFCbS1DT0ZGVkxoVUxpSTd2cEh6emFnMEpEa0FOVkpUUVdmc1AzY0diX08ybVJ0a2t6aUVQNVVYRlRSSXc?oc=5",
+      "retrieved_at": "2026-09-14T11:59:14.714267+00:00"
     },
     {
       "name": "Verizon Business",
       "maturity": 3,
       "position": "Private networks and edge; growing AI narrative.",
-      "key_message": "Google Cloud Announces Strategic Partnership with Verizon to Scale Enterprise AI - Aug 24, 2026 - Google Cloud Press Corner",
-      "last_move": "Mon, 24 Aug 2026 07:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWnlZcHctY2lOakN4YXVGM3dHb2VqY1hzenZMbUREZ2tBNmZ0OHZwRV9HZ1FzcFVMZGZYLWwzZEJSdjJ2NU1MQXR2Zi16WDk0Tm1WZEdmZkM1YXJWc1VvbmdzZGVmV1YwTHpXLUpvalJuQW5pUGZtZ3dNQXZvNUJXbENQLVFEZnlKbE4tdEVFUkVUSDB5TktkTmh4aEhZNW1QLUhXTm9IbmI0aFpHejBVMzdnMm1sWFNGUDlUZlhBYVdyMGZQdUxQZ2x3?oc=5",
-      "retrieved_at": "2026-09-07T11:44:53.303247+00:00"
+      "key_message": "Verizon and Corning announce fiber agreement | About Verizon - Verizon",
+      "last_move": "Tue, 08 Sep 2026 16:22:33 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYmU1RFRLUGN6WWxzVmR3YzBiaHVRZGtHUXlwMUpGazQ1MnZBeXFiOUtoVnFSbEpRb202dUx0eW5OaTFQUzBzdHZQR1FkXzdLRWFlc3ItWm9yTVdEeGZoemlfNXJEWGlQZ0d4M1U4TDlOdHMxaTVRQjRHZFdHTktQZzdQekNQZw?oc=5",
+      "retrieved_at": "2026-09-14T11:59:15.151356+00:00"
     },
     {
       "name": "NTT DATA",
       "maturity": 3,
       "position": "Global data-center footprint; systems-integration led.",
-      "key_message": "Physical AI: Intelligence at the edge - NTT Data",
-      "last_move": "Mon, 17 Aug 2026 07:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSjlELTV4OC1CX1FCMjVuVkJPcWZTWFo3OVIxQXZ5cFpWU012UUFnMnM3dWNwZ3NadVZjcWNlbjRFdGtzcF9ab0RscWNOTXkxLTQ2RmZoajRXMmhiY084VEJRZllvcWNBbGhvV2RyYzVjRGNsNFVWMFVGODFUSXRULVVEYlhsNl9HR1R5ZVctcnEzdFMya1dEX1hFVWhDVF9XdU5LU0owWERKNElsaXZ3b2QxdE56VU05MXI0?oc=5",
-      "retrieved_at": "2026-09-07T11:44:53.812502+00:00"
+      "key_message": "NTT DATA Deploys AI-Powered Platform to Elevate Global Infrastructure Operations - Business Wire",
+      "last_move": "Tue, 08 Sep 2026 08:00:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOE16WUNCeHNFVjZYQzJfTXRuMXpXVENTcWQ3UnRVZEZ3cHdWYU1sT0tUNm1WYVg4bzNRdm94djRfUThjNlEyb0MxeEZXOG16Tk5pQm8waVlwQ2xSWmRiU3hRQllRSFVkUXB5SmtBNFUxTWhwVnFIWmwyc0kyTG94V3NFeWZHY3ZZMlE0MnBuNHRZd0Jxa0tmamdMVTBSa3BydVRDc0lKUUZCRjB3TkM2Vmo0emo5QnctSEVfaUxvdEFGTXZYMHJPMGloTWpBN2JSYmVZ?oc=5",
+      "retrieved_at": "2026-09-14T11:59:15.602556+00:00"
     },
     {
       "name": "Orange Business",
@@ -62,7 +62,7 @@
       "key_message": "Orange creates internal AI cloud for employees, sells to businesses, too - Fierce Network",
       "last_move": "Fri, 17 Jul 2026 07:00:00 GMT",
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWW9QcExVSGZpODR4QzA4azNvQUxrZWFWY0FweXZRWGJKQ01XWURfdmZoVnFUMng1dEtkY3FldXJzZk5Sak5ramlLb056WFllNkdGV0tYeXc3cnM0eTN6Ung3dExkZDJkRjNPemsyMDh5Tkd0VmlPMThPVUJpVEJWOF90YnY5WHExZk5acGlFcHRseDQ3YkFsYlJXSXIydEIyd3RoeG1xTQ?oc=5",
-      "retrieved_at": "2026-09-07T11:44:54.338489+00:00"
+      "retrieved_at": "2026-09-14T11:59:16.057252+00:00"
     },
     {
       "name": "Tata Communications",
@@ -71,7 +71,7 @@
       "key_message": "Tata Communications latest to restructure as AI reshapes networks - Light Reading",
       "last_move": "Fri, 24 Jul 2026 07:00:00 GMT",
       "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcjlUdWlPWG40WFdvejJ5RnpfelhLU05Fc280eGdGcldQVGVFQk5RR3VOM1NnZVB1LXFXdW9URHNTMXNtU2txcjFGcjV4VGk5LWNwaEZlUnVZVERCTDBBci1DNDBVWEwwNzJUUEpGMXdHTG5vM1hfQUEwM3JpQ3dxcmxZWXMwdWJCem5Oa2FHc2UtdzNBTER1YW9lSWZHSU1meEV2LVZkLWQ?oc=5",
-      "retrieved_at": "2026-09-07T11:44:54.856991+00:00"
+      "retrieved_at": "2026-09-14T11:59:16.594791+00:00"
     }
   ]
 }
