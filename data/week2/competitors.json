@@ -1,50 +1,50 @@
 {
-  "generated_at": "2026-09-28T13:05:28.156823+00:00",
+  "generated_at": "2026-10-05T13:47:51.276344+00:00",
   "rows": [
     {
       "name": "Cisco",
       "maturity": 5,
       "position": "Broadest AI-networking portfolio; Ethernet + Silicon One.",
       "key_message": "Cisco AI Research: AgenticOps Scaling Quickly in the Enterprise - Cisco Newsroom",
-      "last_move": "Wed, 23 Sep 2026 13:08:43 GMT",
+      "last_move": "Wed, 23 Sep 2026 07:00:00 GMT",
       "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQUpxTjd4b2lnQ3dHTWExSU5PaWttbGw2U2tGWlJXZXB4UlBrLUdvNjdJTFhrcDNBVmNKaE94cTgtSzl4YTQxcmpWUmIwdTZNVkhKN2RITlhUSkpYZ0QzWFcyOFVUZWNOeHdJQXI4dU9OdmJCU3kyOW9TUWJnR2R0MGpUdFoxNDVvbFZEMFNNelZfRHV3VWNIRl9UMi16RXdycmN6M0tEQm5kUFhCM3RyR2V3NTNFMEU5bk5mS1RoU2ltZTg?oc=5",
-      "retrieved_at": "2026-09-28T13:05:23.776793+00:00"
+      "retrieved_at": "2026-10-05T13:47:47.430788+00:00"
     },
     {
       "name": "Juniper Networks",
       "maturity": 5,
       "position": "AI-native ops (Mist) and strong data-center fabric.",
-      "key_message": "Oracle bolsters collab with HPE to rev up GW-scale AI infrastructure - Frontier Enterprise",
-      "last_move": "Sun, 27 Sep 2026 19:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV29sWU53a240eUhYVmhPX2pSVkZLMG42NU10dE5Bb3JCOEwwaHRxenJmUkE2SEdYWDZHUEx6SWJQOVZUSTZvLTNrUGduZjllZWxaMmVKTFBvRmh3QmlJbjd4TTIwNklGZjBrX2lydXRhTlpaS1VoWEljNWZtRW45Zkl6ckozY0dWckFETnFXRzZucGdGaHB2NzY3eFdfX1lpa1JRalZ1RWI?oc=5",
-      "retrieved_at": "2026-09-28T13:05:24.326204+00:00"
+      "key_message": "Hewlett Packard Enterprise Raises AI Networking Outlook, Targets $800M in Juniper Synergies - Yahoo Finance",
+      "last_move": "Wed, 30 Sep 2026 20:02:11 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT2VFVWV3Yi1xckJ4Q01RMFdWeFl6VEZXS0lrZ3dFNTVnckdDSVU0N0MxUHJ1YV9uNUFMRnNJQmF1aFhKLXViLVp6dmpVc0JLQmxsTEctLWNpUV9vVkVxamFFa25fNDkySzZvaVB1RDlFZHVBU1JDTWd0amdRdW1GVTBuT3Btd2ZzOElPZWkycVlPUVRxb05mSlVGaWtpSGFHVlE?oc=5",
+      "retrieved_at": "2026-10-05T13:47:48.041428+00:00"
     },
     {
       "name": "Lumen",
       "maturity": 3,
       "position": "Low-latency AI transport; network-as-a-service push.",
-      "key_message": "Lumen lights up Intelligent Internet for AI demands - Computer Weekly",
-      "last_move": "Wed, 23 Sep 2026 09:56:43 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWUg3TFUtT283Q0EtRXhRLWxYcWRJQWtVcDdFQlRodS13WnBVcHNHUVd5OGhuZGtRU1lxRGNfTjlKdkpJZG9hVzhNc3phQ1c4VW02T01IVlVDbFEwS3RFRDBpUVFWNTd6Vml5cWNGaVZnRy1ERm96SnVxQnpsN2hrWnN0MzRLSXA0RGh3bnljTzBXUXdnTk1RQnFfODc2Zw?oc=5",
-      "retrieved_at": "2026-09-28T13:05:25.045171+00:00"
+      "key_message": "AI network capacity planning: scale faster - Lumen Technologies",
+      "last_move": "Thu, 01 Oct 2026 07:00:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZTlfUlU4cGM3SGF1c2hqZVNvNmhFY29UX0FKQWRiQUNMZTZ3ZmlMMC1fQnVkNVUwVDNESktvVVV3cUFNUnpsdG5mZzlwc3pQYnZrMFR4MjFWMjhqN0k2SXRhNlYwcG1kSk5nTVFuLTZXWWt4RTVNaEQtZVdEZFEwTlM0b0puQ2ZlcXpBeUF3Y0pqcFNzVnlTOHBrZE5MRHVRSlRQNDVTOA?oc=5",
+      "retrieved_at": "2026-10-05T13:47:48.536435+00:00"
     },
     {
       "name": "AT&T",
       "maturity": 3,
       "position": "Enterprise connectivity scale; measured AI messaging.",
-      "key_message": "Meet the Special Staffers Serving Up Joy at Augusta National - TODAY.com",
-      "last_move": "Mon, 28 Sep 2026 12:49:09 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbFhxdVl2VW1ldjlOS0ZSNnRXUHhrLTF1LUw5TGR3QnZiWXdfMmlzeC1aUjRVX0tnX2dtNFpNRUt6UEN2QlFwWUJWV0IxUDBXeWZVcGN0cDZZYTdaVERGUmVLVmhRZUdKMEVrUEhrUXV1Ylo4NmprdmNnM1Q3VmUwNXlpNVZjV0FEUjY3eWxUdzdtLXUxcmE5d19PQ1RJd2czMzRV?oc=5",
-      "retrieved_at": "2026-09-28T13:05:25.782053+00:00"
+      "key_message": "Southern California woman accused of spying for China arrested by FBI agents at LAX - ABC7 Eyewitness News",
+      "last_move": "Mon, 05 Oct 2026 13:17:06 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbjJxTGFDaEVYdkc5bTlKWFNjdWg0VEJoSFU5MXZydzZ2dG9OQWNzSXV3aDJFZGlSS3FDZmtDNU1UMjl6eWhpX3JGdEhYR1pVMlA4OTAxaWt0cnd6dUYtbEpDVXVhNF9xYmdPR2lhbk1FandCQXI2OUtiT2pRRFJIdGxhYi1LMkZXWmxrcFRRdWtqN0g3YUdGTzlCREtmMUxQZXBVMnd0UnpQbTl6c3ZESGM5WUVydw?oc=5",
+      "retrieved_at": "2026-10-05T13:47:48.975217+00:00"
     },
     {
       "name": "Verizon Business",
       "maturity": 3,
       "position": "Private networks and edge; growing AI narrative.",
-      "key_message": "Verizon and Corning announce fiber agreement | About Verizon - Verizon",
-      "last_move": "Tue, 08 Sep 2026 07:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYmU1RFRLUGN6WWxzVmR3YzBiaHVRZGtHUXlwMUpGazQ1MnZBeXFiOUtoVnFSbEpRb202dUx0eW5OaTFQUzBzdHZQR1FkXzdLRWFlc3ItWm9yTVdEeGZoemlfNXJEWGlQZ0d4M1U4TDlOdHMxaTVRQjRHZFdHTktQZzdQekNQZw?oc=5",
-      "retrieved_at": "2026-09-28T13:05:26.321249+00:00"
+      "key_message": "Verizon Business: AI Is Creating a New Network Opportunity for MSPs, Podcast - Telecom Reseller / Technology Reseller News",
+      "last_move": "Wed, 30 Sep 2026 17:46:20 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdlRHZmUzVEpXaHpxZGlMRFFZeVlHWGhMVm9PZkJyTEJSZFA2dzlMakctdXhpUmdFTjkzVm5zVVpydVIxNDhQTjZoazdURVVNeGF4Z0c2cW0zX3ozQmV2REY4NHRfM0pzUlZONkVoSDdKWUhvQm11YzlkUGgwSXhiSmg5c2stQWdzeTE2cDZtUEZkR3E0ako5Vnk2UldCWTZfdjd5dHpyWlN1Y1lFMjVzbW1EMnXSAboBQVVfeXFMT1ktZ191bHVjNDJad2J5NTNHVVBSV1Z1emtFMFJDTGl3UjFCWHA5MkZxUXUybkJhd3hBaGtvX3ZmYk40TFNOQUt5a3ZiNWNNMXp1SkdiQ2xKUTRWV0xFc0F6Tk9mNmNQbkZFR0NiSFNmTmdZZ1BFVUZTb2hGSWpCbVJRbFJ4WkplcHZ5bnJLb2FuREhhUVM5THEwSVd4WWl3ampQZVdVSE5tUk4tTEExelNyU1RmaVlaQ293?oc=5",
+      "retrieved_at": "2026-10-05T13:47:49.534948+00:00"
     },
     {
       "name": "NTT DATA",
@@ -53,16 +53,16 @@
       "key_message": "Network consulting leader - NTT Data",
       "last_move": "Fri, 18 Sep 2026 03:48:27 GMT",
       "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iNk5KbC1LZm5sQ3A1V296Z2dveGNfUWxpeklBZFE1RHA3eW9EUGM5ajRtWlBfcDAzUmprc01hb1NSVk1YSzVfVG50TEYzdWxsSktDWGd5aFNzWkFZY3NIYjc0X0RtbUxLN1djYUhDMXJxZmxXMnZJOWJIWHQ?oc=5",
-      "retrieved_at": "2026-09-28T13:05:27.026357+00:00"
+      "retrieved_at": "2026-10-05T13:47:50.114949+00:00"
     },
     {
       "name": "Orange Business",
       "maturity": 2,
       "position": "European strength; early AI-networking positioning.",
-      "key_message": "Orange creates internal AI cloud for employees, sells to businesses, too - Fierce Network",
-      "last_move": "Fri, 17 Jul 2026 07:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWW9QcExVSGZpODR4QzA4azNvQUxrZWFWY0FweXZRWGJKQ01XWURfdmZoVnFUMng1dEtkY3FldXJzZk5Sak5ramlLb056WFllNkdGV0tYeXc3cnM0eTN6Ung3dExkZDJkRjNPemsyMDh5Tkd0VmlPMThPVUJpVEJWOF90YnY5WHExZk5acGlFcHRseDQ3YkFsYlJXSXIydEIyd3RoeG1xTQ?oc=5",
-      "retrieved_at": "2026-09-28T13:05:27.514453+00:00"
+      "key_message": "Orange Business to provide European Union’s backbone network for trusted data exchange - WebWire",
+      "last_move": "Mon, 05 Oct 2026 13:18:45 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTRmVpMHFhcDBrTGdmaTJ6U01pWUJKa1FTUDFfZ0Jaa1FEVUx1aHlpd1l5NUtycUxGTUk0SEJJYW9ad2c1QUNRS0VVZm1zZTNNVFctcnU2a3ZiemZyU1RSOQ?oc=5",
+      "retrieved_at": "2026-10-05T13:47:50.666268+00:00"
     },
     {
       "name": "Tata Communications",
@@ -71,7 +71,7 @@
       "key_message": "Rewiring global capability centers for the AI era - Network World",
       "last_move": "Mon, 28 Sep 2026 08:24:45 GMT",
       "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNXzRDTTlpSFUwbk1ueE8weFJsNDVKeDRVNUJkZU1nR01pY0tEaVF6VzA4UDhadm0xNTliYU5ONDNaRXlhNzM0X0V4LXdRMjI0b2dPSXVHSGhZNjVuS3ZlTUZFSXpLR25QMm9HMWFiYklPZzZzU2JXRXRWTFdXdkhocFE4bFFDUDNZaXBlaGM1QXpkNmV2YlZMMFhHNVl5X2FW?oc=5",
-      "retrieved_at": "2026-09-28T13:05:28.156678+00:00"
+      "retrieved_at": "2026-10-05T13:47:51.276201+00:00"
     }
   ]
 }
