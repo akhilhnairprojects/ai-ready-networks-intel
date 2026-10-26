@@ -1,77 +1,77 @@
 {
-  "generated_at": "2026-10-19T12:20:23.133826+00:00",
+  "generated_at": "2026-10-26T12:22:36.015986+00:00",
   "rows": [
     {
       "name": "Cisco",
       "maturity": 5,
       "position": "Broadest AI-networking portfolio; Ethernet + Silicon One.",
-      "key_message": "Cisco and NVIDIA Announce USFP: Expanding the Path to AI Connectivity - Cisco Blogs",
-      "last_move": "Mon, 12 Oct 2026 15:03:25 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORW82XzZySmhBUllpTmFFR1RWSVBWUGN0UUZjOE1FNlFsYzg3WlJXRjMzWHRBdWZvRE9GUDRCWkF5UGl2NG9EbG9abGVFMkVlYWFsRFV5cDVqLWZ6bG4ta3g4NENfTkcxQzIyOUpla0cwVEtrdE16dFhvcTVYcDFiNnFWSGRWSWRwQ2J5SERJTTRMWmpkV1M5MGRvdEZMZw?oc=5",
-      "retrieved_at": "2026-10-19T12:20:19.120767+00:00"
+      "key_message": "Using AI to re-architect the Cisco DevNet sandbox environment – Part 1 - Cisco Blogs",
+      "last_move": "Thu, 22 Oct 2026 20:27:14 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSEZFVVpfenByOEVRZUdZMXNsUXdrZTB5SjFYNFNncmdwaEc5eGMyalRlbTVleTY1VERNY0k0aEpPY1pUakpYQ21sUTRpc1NKQTZta2x1c2g2RkEtd1R0TjVPMGFwbjZZZ3NHV2p0NjVOSFQzOE8wTThMZzl0WEs1eXBn?oc=5",
+      "retrieved_at": "2026-10-26T12:22:32.603906+00:00"
     },
     {
       "name": "Juniper Networks",
       "maturity": 5,
       "position": "AI-native ops (Mist) and strong data-center fabric.",
-      "key_message": "HPE won’t merge Aruba and Mist, but is combining tech - Fierce Network",
-      "last_move": "Wed, 14 Oct 2026 22:05:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVFZhWDc4VkVrbUtoQ2NGMktXX1JSLWIyQjgyVUwxN2dPV09McmxfdDBVeUhDQTJWakRqb3lQdDRJZGtLNEQzelo1dHJQc1NlekNlN0Y5TUhTWVhsa0lHNXE2aVdIajd6TEd3UTB4bmsxay1md2lIWUNUbzNReEtkNFdtQnBYZFFCRmN5ZXZLdTY1SHZhcEN4bkdLS3I3amxycVl0bkVWamxSclVJNUpzNm5qTTJPOFYxQlAxazNTZldpY2ZRbEE?oc=5",
-      "retrieved_at": "2026-10-19T12:20:19.618253+00:00"
+      "key_message": "ServiceNow cuts network incidents 90% with HPE Mist AI - Fierce Network",
+      "last_move": "Wed, 21 Oct 2026 20:59:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWUNSV1BzSWswekVROU1BYzFoVkxjUjRVRFNQbC1UbS1aWkZzVlZKN1Q3aXc4QWRrdjRNNnF6S2Zzck9IMWNQWWl1cU1kQUJRajdWY3R5ejZwSXR0T1FDZ1J6QUtqSDBqQnRESW9Tb1hCXzRLZHFSeXdqTVBxTU5nbl9hMktZSE54Y29XSGxB?oc=5",
+      "retrieved_at": "2026-10-26T12:22:33.084157+00:00"
     },
     {
       "name": "Lumen",
       "maturity": 3,
       "position": "Low-latency AI transport; network-as-a-service push.",
-      "key_message": "Why AI success depends on network infrastructure - Lumen Technologies",
-      "last_move": "Thu, 15 Oct 2026 18:06:33 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1pVnhDdGtYbktRYnlOVFZ6NUZzeElIM3dxUFgzQ2NjWlM4MGdObjEzb2lQY2sxXzRWaXVQUk5EdGJpYThzQVRNZUtHUUNfY3FYdW9ZZGRxUUhvbng1a1RWcU9XZ3RjemM?oc=5",
-      "retrieved_at": "2026-10-19T12:20:20.249606+00:00"
+      "key_message": "Why AI Needs Connectivity to Scale - Lumen Technologies",
+      "last_move": "Wed, 21 Oct 2026 01:51:45 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTEZoaWtSX1hYRExoQ1BIOXdyTzJXc045S0Q2eTg1VjZlTHZrR2xhU09RUjJkWlhNQ0VKT05VNXRKMVd0NENSUUozVkpnS1dtWEJyMWptOHdlWlNoZ3dyMEY1bGxJaVJZUTBHdV9vS2xnSi03ZGV1Rnc0WE5Jc0ZTNW8tZWlKMmtpUUxSNzFZOEhneXR1Mkg2RA?oc=5",
+      "retrieved_at": "2026-10-26T12:22:33.640126+00:00"
     },
     {
       "name": "AT&T",
       "maturity": 3,
       "position": "Enterprise connectivity scale; measured AI messaging.",
-      "key_message": "Opinion | I Teach at a Business School. It’s Time to Shut Them Down. - The New York Times",
-      "last_move": "Sun, 18 Oct 2026 05:00:06 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTHZ6eFBKSXJ2cUhwamdJZWFaM2pYTmlmTmRwNmtTb1FSdzNRTDl6UzA3U0syOGk3WXB0clM0b3V5Zk82aVZBclBxbkpzaURPQWVxZWRHVThCV3dNY09PcXp1X20xaVRLUWJJMlFWeVFYaDQ5RkpiOTQyZnlCWE8tcXYzdm5sdU9DblEtbVFzODhnbE11VUJSUw?oc=5",
-      "retrieved_at": "2026-10-19T12:20:20.835950+00:00"
+      "key_message": "Sunlight at night: US startup’s demonstration of lighting Earth from space draws critcism - The Guardian",
+      "last_move": "Mon, 26 Oct 2026 12:00:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcTFxQTM3V2ZWbjQ3Q2I5ZVV0bHluS2RsWnJmRzU3THpuYTktaXkwUGFFWWJCcnAwdDJKcmlGNDB1ZjFrbUtIS2hzSkxFclBIUlFhbjZpaTFKeTMtM1NTYkRzc3ZDODljZ2Itd1JHQUVWei1COUZmdGdwaHBHYk1OeFhIeDhRXzJPWTVMeUZHZ2MycHh4bktn?oc=5",
+      "retrieved_at": "2026-10-26T12:22:34.122405+00:00"
     },
     {
       "name": "Verizon Business",
       "maturity": 3,
       "position": "Private networks and edge; growing AI narrative.",
-      "key_message": "Architecting autonomy: Network infrastructure for the agentic era - Verizon",
-      "last_move": "Wed, 24 Jun 2026 07:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sdXNqQjhPMzZYZzhVa3h4NjJ2aGd4Xy05cjlqc1FmOW9VWVd0bHBELU1tcXJoSlJTVU1JTXgwUWg5Zk1zMVFsR3MwZDduMXo5UjVtMTFSNUtSdkFpYU1oVWYyVHFubE1MX1hDbkhvLTBOMUZveFFTRFdmMWE?oc=5",
-      "retrieved_at": "2026-10-19T12:20:21.361185+00:00"
+      "key_message": "How Verizon Business is wooing an indirect channel for its AI-re-defined network - Diginomica",
+      "last_move": "Thu, 09 Jul 2026 07:00:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUFlEaU1GLWxRbklrOGJtRXJ6T0ZvNFVhcnZ4Zm4tMkNvWkxiTnlqSWlmZndFT3VZQnJ4MmoyTFNfTHFBTEJQOThaa3FnZ1ZhUFNTMVU2YkYwQmJyWXFhdVcwd0dTeTZIb2xXT0JXaWJoMTZnaThyamJWa1plNDNmbUYzWGNmVWpBSktmSlpNbGhkVUZ5QUxpUg?oc=5",
+      "retrieved_at": "2026-10-26T12:22:34.435569+00:00"
     },
     {
       "name": "NTT DATA",
       "maturity": 3,
       "position": "Global data-center footprint; systems-integration led.",
-      "key_message": "NTT DATA named Palo Alto Networks 2026 North America Frontier AI Partner of the Year - NTT Data",
-      "last_move": "Wed, 14 Oct 2026 06:01:57 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZGRNTDFqNWZ1S1l0OEtkXzlPQTJaZlAySWdfVDhTdEFwVFlCcGJxbS00anNLUDJpS213MlpRMkZ2ZzdXQ3dKQy1YQzNRRVdneDRZUkFMN3ByN3hXdEZ0SVc3UGxRVEpzVWlQeWlFNF9FY0dZQ1Bfa0dKUUljcWJLWnM1cXZDblJ3ZjlMaFhhSWNtc2p1RTV4elFhRzJPSVNWSFNEOEtIbVMyck1rMDNvOS1Dei1DekZhcWNUSTdoeHVEUQ?oc=5",
-      "retrieved_at": "2026-10-19T12:20:22.020771+00:00"
+      "key_message": "How NTT DATA and NVIDIA spot network issues early - NTT Data",
+      "last_move": "Wed, 21 Oct 2026 18:13:08 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaFVRNW9yUEdjanpwTmpjaWtTWko5S2lKdE9YVGRhVFhQN0o2SlhnVy1fcEdmSFN0RXZJTllRbjRPdERJMHExOUFUUUtIRjdFVXE2T3VOWWNpOV9DU2RORTRGLVlhY3VnRERHckkwLVNlcXc1RmszaXItUmJzcm13TllpN0NnRHVFM0xPYUFFRUt0eWNMZmhoanZCN1FJTTRtaV81ZEhUNFBycUgyZXVSdQ?oc=5",
+      "retrieved_at": "2026-10-26T12:22:34.969201+00:00"
     },
     {
       "name": "Orange Business",
       "maturity": 2,
       "position": "European strength; early AI-networking positioning.",
-      "key_message": "Sovereignty drives Orange Business to open-weight AI - Fierce Network",
-      "last_move": "Mon, 14 Sep 2026 07:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMk1JRzJwYnpYLUJmb3lENk9xeHk1ZFk2VHNuakhoM29EVm1rN2thdGhpYmQweUtROEljbVRCSzZqUlNqeHhJdVBZcHJfSi12UndXbmkzRjd0cWFKV3B3NUtrckJDZDdjRGkzM2dNdlJZZzMwWUN5R2VBSHFJeGRIVmh6OXJ2M0U2bnM3YWs0Yw?oc=5",
-      "retrieved_at": "2026-10-19T12:20:22.492375+00:00"
+      "key_message": "Orange Business, NVIDIA Advance Distributed Voice AI Inference for Enterprises - The Fast Mode",
+      "last_move": "Sun, 25 Oct 2026 23:50:21 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTXVJS2xxR3NzdXNMVmJyZlF4TGxUR0VLb2xfbUZjeElYeWctdFBQY0dfdnV4NU5OZXRBQ2taTEhFajNSVTdrR2V4MWc0cE5LeTNIemVqN1VPajZMdWxRR21BRUhDbUNqeG1TOG9xOHgzMEdhdTloVlNfNjdRVkM0T1Zia3RJNkhoR3pDbFVCaE1RVjBVSHpWWUJjUDJ3WGMwRHozckh5QU9tQ2QwRGY1OEw4Q0FpVHZJRGJEVmtyZmplQUNleDN4SG4yV3M?oc=5",
+      "retrieved_at": "2026-10-26T12:22:35.471667+00:00"
     },
     {
       "name": "Tata Communications",
       "maturity": 2,
       "position": "Global neutral transport; subsea + emerging markets = white space.",
-      "key_message": "Tata Communications latest to restructure as AI reshapes networks - Light Reading",
-      "last_move": "Fri, 24 Jul 2026 07:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcjlUdWlPWG40WFdvejJ5RnpfelhLU05Fc280eGdGcldQVGVFQk5RR3VOM1NnZVB1LXFXdW9URHNTMXNtU2txcjFGcjV4VGk5LWNwaEZlUnVZVERCTDBBci1DNDBVWEwwNzJUUEpGMXdHTG5vM1hfQUEwM3JpQ3dxcmxZWXMwdWJCem5Oa2FHc2UtdzNBTER1YW9lSWZHSU1meEV2LVZkLWQ?oc=5",
-      "retrieved_at": "2026-10-19T12:20:23.133644+00:00"
+      "key_message": "Tata Communications to spend $450M on AI fibre network across India - The Next Web",
+      "last_move": "Mon, 26 Oct 2026 09:28:09 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS0c1TU04QXVEMTB0M1JQdXd4QzlFWktlSVFOdmg2RzhtSDJUNVphUF9YMkNzbUhTYU9Gcy1oMXlKWUZBWjNwdzhDUVRIenNqU2RxWlpHWk9GSTdFbDk0VXZMbElzR3VtZXhIRGgyVlE4MkdPaTRsclZnOVBCYy1GUg?oc=5",
+      "retrieved_at": "2026-10-26T12:22:36.015834+00:00"
     }
   ]
 }
