@@ -1,68 +1,68 @@
 {
-  "generated_at": "2026-11-09T15:24:24.553528+00:00",
+  "generated_at": "2026-11-16T14:59:11.990740+00:00",
   "rows": [
     {
       "name": "Cisco",
       "maturity": 5,
       "position": "Broadest AI-networking portfolio; Ethernet + Silicon One.",
-      "key_message": "Using AI to re-architect the Cisco DevNet sandbox environment – Part 1 - Cisco Blogs",
-      "last_move": "Thu, 22 Oct 2026 07:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSEZFVVpfenByOEVRZUdZMXNsUXdrZTB5SjFYNFNncmdwaEc5eGMyalRlbTVleTY1VERNY0k0aEpPY1pUakpYQ21sUTRpc1NKQTZta2x1c2g2RkEtd1R0TjVPMGFwbjZZZ3NHV2p0NjVOSFQzOE8wTThMZzl0WEs1eXBn?oc=5",
-      "retrieved_at": "2026-11-09T15:24:22.008646+00:00"
+      "key_message": "Cisco lifts annual revenue forecast on strong AI networking demand - Reuters",
+      "last_move": "Thu, 12 Nov 2026 23:18:33 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcDgteG5IeXZjU1k1UDdhbFkyZlVCaHI1d0pPdGp2elFReVRRclN6dWhTM2NuSUk3cGdUSnRRU2c4aWpCcS14blFsN3hLTTNCSktQbXpTUVgxRjVJV1R1YldHdEVYMXJvVHg3TzJiOXhEM0owM08ySlI1bmNkMG5GQXhnQl9iVExNWlN1Z0ZweFk3YldGWDltNFpnekdDZWpVcTJ3QTFlUUxNWXlLX0NjLUhvTjRtNzlrYnlXdXJiTmc?oc=5",
+      "retrieved_at": "2026-11-16T14:59:08.752735+00:00"
     },
     {
       "name": "Juniper Networks",
       "maturity": 5,
       "position": "AI-native ops (Mist) and strong data-center fabric.",
-      "key_message": "How the Juniper Networks Deal is Paying Off for HPE - Futuriom",
-      "last_move": "Tue, 08 Sep 2026 07:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQTlwZlU4c21WMGZlekowU2d6N1RIRUdjYzJoeGcySFFxRms3Q1ZZcXZoNG90QmxyTjlGZVJGaUtvUEFkLWNxcFhmNk5kUlY1d2RMZlQzelNxV3VoTzY3Vi1XM2h0ZlNwS21Zd2tmSGZ5MHY3VndSUWdXTldObkNTQlVFbHdtdFE4TFBDZDZuX1lLYlA1aHBicWUyOFgwODQ?oc=5",
-      "retrieved_at": "2026-11-09T15:24:22.461086+00:00"
+      "key_message": "Former Cisco networking EVP joins board at AI network startup Aria - SDxCentral",
+      "last_move": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY2JsTHpOOWxXLW5lZWswOW5jaHhreWdNTWlkd3RNbWxxYldzMFROUUFRUzVJajRqQmZCLXFpcU5OaGUtdUpJaFIzaFpncXBkaEdEQjZ0aFU5X1d3ZGE3LTFSTnlRY2g5MnRIUTljNW13RnFBWVZKcmFxM0t5S0JLRUl1VUxfS2dhWEgyQWw3eDY4SmNleEhOYkVoY3pqejVf?oc=5",
+      "retrieved_at": "2026-11-16T14:59:09.231979+00:00"
     },
     {
       "name": "Lumen",
       "maturity": 3,
       "position": "Low-latency AI transport; network-as-a-service push.",
-      "key_message": "What Is Lumen Technologies (LUMN) Doing To Simplify AI Connectivity For Enterprises? - Yahoo Finance",
-      "last_move": "Sun, 08 Nov 2026 15:08:16 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdkpTS3lXNS02QzdrVC1odVZIOVN5dzBpaWhJZFBnMTNNM1ZhQ1NiZkJRaGI1engyNUlKdnc0QUFlMnAwd3ZEd1cybzJhb3VtbEFieHhkYlZJZjcxaEs5N2NJSlc4MFExVFZqZXBJWkJZemd4bUVKaXFYS3RkRHQtcnZhTnlJQnVOc2N6Wlgtc256bHdWQ2JCeUlxVXIxaVNLdzE1dg?oc=5",
-      "retrieved_at": "2026-11-09T15:24:22.773919+00:00"
+      "key_message": "AI infrastructure: scaling the network AI depends on - Lumen Technologies",
+      "last_move": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmUEwzTzVJNURkYTZLWHBQeHd6ZEt4SjNNSnRDMGVvcG9pQ0tIMFM3RnY0TEozeGcxclJQTjRDLThPaGRmdUMtV0pGWTRWM281Z20tLVdIMnhId25UNno5M2NtbFpUM3ZQTkE?oc=5",
+      "retrieved_at": "2026-11-16T14:59:09.600030+00:00"
     },
     {
       "name": "AT&T",
       "maturity": 3,
       "position": "Enterprise connectivity scale; measured AI messaging.",
-      "key_message": "Bills at Vikings Monday Night Football betting odds, picks and predictions: Best bets, player props - Yahoo Sports",
-      "last_move": "Mon, 09 Nov 2026 14:33:21 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQbmhHXzlJWG9oYTA1ZHhGZmEzMWNCOWw3djhZUG9vRm1YRXlteGUzdDRlSjJoQjJibVNkZHFnMWtUdmxHOFdIb29INFVGMXlHaV9qSEc0bTlSX1I3R1ZJOVBmc3p3RTlpUE00RTk1eWFLVFdFNVdXWVpQdXN1aWJWbEpIMlMxbFlOTTdKZDNjU2djYUY1SG54aFN4Qzg0b2oxNXUtOUEtREdtMGMwWk5LUGhyeGs2Q1lsUkdYckh1X2tsZzdqdzgwcGZtSVNvQmc4RkhjVFJaQWxEZk5LVHVsdVFuWDZlSWdIVmVseg?oc=5",
-      "retrieved_at": "2026-11-09T15:24:23.170904+00:00"
+      "key_message": "Suspect arrested in connection to explosive device found at Peoria, Illinois ethanol plant: police - CBS News",
+      "last_move": "Mon, 16 Nov 2026 14:09:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTVMzWnFIZlN0UUsyd0pUcXk5Uk93Y2JBNlVqNktaOWVNVThLTGNINWZXYXEzaWtrSUwzY2Vrc28yNlU3NVo1bklra3BpdldhaFRLeWZOcEN4bGo4ajNEc2xVckhIX0c5azBNZ1N5R1JUSlRvak41RFlyb1BRbUs4d2trM1RxMDNRSzR3bm4walA?oc=5",
+      "retrieved_at": "2026-11-16T14:59:10.434160+00:00"
     },
     {
       "name": "Verizon Business",
       "maturity": 3,
       "position": "Private networks and edge; growing AI narrative.",
-      "key_message": "How Verizon Business is wooing an indirect channel for its AI-re-defined network - Diginomica",
-      "last_move": "Thu, 09 Jul 2026 07:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUFlEaU1GLWxRbklrOGJtRXJ6T0ZvNFVhcnZ4Zm4tMkNvWkxiTnlqSWlmZndFT3VZQnJ4MmoyTFNfTHFBTEJQOThaa3FnZ1ZhUFNTMVU2YkYwQmJyWXFhdVcwd0dTeTZIb2xXT0JXaWJoMTZnaThyamJWa1plNDNmbUYzWGNmVWpBSktmSlpNbGhkVUZ5QUxpUg?oc=5",
-      "retrieved_at": "2026-11-09T15:24:23.501246+00:00"
+      "key_message": "Verizon Business lights up private 5G across Thames Freeport - Fierce Network",
+      "last_move": "Tue, 10 Nov 2026 14:01:05 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNnJiMUkyMlBJV2JpU2s1M3lOTnJWbWx1eDRNS1NtMzJxTlFES2NZVTQ2N0dzNU40ZTEydXNvaDV2Sjc1RXVyQ0RCVU5PSkt0UGxsOUJyaHBUMFZzSXFsUWZwWEhaUVJXcEdkVGxXeGsyVGNEYWFIUHdTZGFhRHE4R3NlX2NMcnZWUGZ4VWg5MGQ1MUQ4amFfMm9DSFgtZw?oc=5",
+      "retrieved_at": "2026-11-16T14:59:10.834433+00:00"
     },
     {
       "name": "NTT DATA",
       "maturity": 3,
       "position": "Global data-center footprint; systems-integration led.",
-      "key_message": "Your network is now at the center of the AI conversation - NTT Data",
-      "last_move": "Sun, 08 Nov 2026 19:28:50 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSk1Cdk56Sml5bktYMjJvZVk3bURDd2dCaDNTREVvS2JfQkQzRGlOMWFxRFRWUmVOVE03aW5valdMald2SXdONEdsTXVsT3pKSE5QVEJKak5fMmpTTkQxRGdXanR4Zk90UmZpV0tOcjQzbHdNVTRKYjFFMEdlQWlEcC1hTVNfZ0drLTN2bWwwc28xN05ETjVrZy01ekR6OUxQa1E?oc=5",
-      "retrieved_at": "2026-11-09T15:24:23.824312+00:00"
+      "key_message": "Without the network, there’s no sustainability, security or AI - NTT Data",
+      "last_move": "Thu, 12 Nov 2026 09:14:24 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY0ExUFFrSGhnUkZpbTlxcDNSQ0xYSWx1dWt1eWFKSWo5ZGN2bnp0RmRMVkpnZkdsb25JbWZyT0hGcXZWellmLWpmakVQXzJlMlZaU1BlNTlpYlpudWZhTS1NTmMxQld2Zjd5RnkxYk9PVlhqYVVLQ1BJSUM1MF9lRWt0VE1mSmcxVjhCNzZ2eHV1aDBsVHk2ODJqZmZjV3MwXzZERy1B?oc=5",
+      "retrieved_at": "2026-11-16T14:59:11.179748+00:00"
     },
     {
       "name": "Orange Business",
       "maturity": 2,
       "position": "European strength; early AI-networking positioning.",
-      "key_message": "Sovereignty drives Orange Business to open-weight AI - Fierce Network",
-      "last_move": "Mon, 14 Sep 2026 07:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMk1JRzJwYnpYLUJmb3lENk9xeHk1ZFk2VHNuakhoM29EVm1rN2thdGhpYmQweUtROEljbVRCSzZqUlNqeHhJdVBZcHJfSi12UndXbmkzRjd0cWFKV3B3NUtrckJDZDdjRGkzM2dNdlJZZzMwWUN5R2VBSHFJeGRIVmh6OXJ2M0U2bnM3YWs0Yw?oc=5",
-      "retrieved_at": "2026-11-09T15:24:24.199319+00:00"
+      "key_message": "Orange walks AI tightrope to capture 'hundreds of mil' in value - Light Reading",
+      "last_move": "Thu, 12 Nov 2026 07:21:08 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ3BTcXRseEhqY2ttV2ZaYXhvSVZ5YUVOS3VWM3ozWTBZT3dETGRsRUw2MEVsZkNJbnFReHJmb3k3ckV5WnpSMV9nX2hCdjNQYzhxTGQ0ZnFpUmtqbmFmOEk0ZktEYkNsM0N5eUtIWEZ5OTNYYzRaUFB2V3dfT3lPV0doc2NXSGJxQ2lKVzNxYm4zbXdkSURZYzhDckx2RkRzUlRsMzZ2aUhUbExmcFdJ?oc=5",
+      "retrieved_at": "2026-11-16T14:59:11.562365+00:00"
     },
     {
       "name": "Tata Communications",
@@ -71,7 +71,7 @@
       "key_message": "India's Tata Communications to spend $450 million on AI connectivity infrastructure - Reuters",
       "last_move": "Mon, 26 Oct 2026 07:00:00 GMT",
       "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWkFzTTI0b0otQXlyRGllcFhzUTY0c1RJcUJCX2R6aF9UUUt5VXd2UzFwdlBsN21ld1Y0Q05uWEFEMlhJbWtDTDFrTU80MjBCR2RLbzRtUlNaMDExYkJfYllhNXk3bVJCamxXM3p5ZEIwOHduMEQ5aTFDV1o5d0VIOVFqeWo0bGUzdWE0b2dCTUNZR2NoNlVHSUtJTEhkUlhxeUtJM3lKWnNsdmNuTTl3bHFPVWh3Q183NlR0NFNjaTI1V25KMmNYdTQtczlaNkk?oc=5",
-      "retrieved_at": "2026-11-09T15:24:24.553367+00:00"
+      "retrieved_at": "2026-11-16T14:59:11.990581+00:00"
     }
   ]
 }
